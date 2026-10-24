@@ -5,3 +5,9 @@ requests==2.34.2
 python-dotenv==1.2.3
 pandas==3.0.5
 pytest==9.1.1
+# Milestone 4: features and clustering
+numpy==2.5.3
+scikit-learn==1.9.1
+joblib==1.6.0
+umap-learn==0.5.12
+sentence-transformers==6.2.0

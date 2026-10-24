@@ -1,0 +1,40 @@
+{
+  "files": {
+    "features_tfidf_title-description_gb_2026-10-24.npz": {
+      "method": "tfidf",
+      "text": "title+description",
+      "shape": [
+        1857,
+        100
+      ],
+      "vocabulary_size": 10417,
+      "svd_explained_variance": 0.273,
+      "created": "2026-10-24"
+    },
+    "features_tfidf_description_gb_2026-10-24.npz": {
+      "method": "tfidf",
+      "text": "description",
+      "shape": [
+        1857,
+        100
+      ],
+      "vocabulary_size": 10146,
+      "svd_explained_variance": 0.272,
+      "created": "2026-10-24"
+    },
+    "features_tfidf_masked_gb_2026-10-24.npz": {
+      "method": "tfidf",
+      "text": "masked",
+      "shape": [
+        1857,
+        100
+      ],
+      "vocabulary_size": 5380,
+      "svd_explained_variance": 0.307,
+      "created": "2026-10-24"
+    }
+  },
+  "source_postings": "postings_gb_2026-10-24.csv",
+  "postings": 1857,
+  "seed": 42
+}
