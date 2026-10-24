@@ -1,0 +1,6 @@
+# Pinned so the project installs the same way every time.
+# More packages (pandas, scikit-learn, sentence-transformers, ...) are added
+# as each milestone needs them.
+requests==2.34.2
+python-dotenv==1.2.3
+pytest==9.1.1
