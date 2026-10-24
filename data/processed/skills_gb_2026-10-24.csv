@@ -1,0 +1,1949 @@
+id,skill,category,in_title,in_description,matched_text
+4094618894,Master data,business & ways of working,False,True,master data
+4905389582,Agile,business & ways of working,False,True,Agile
+4905389582,Data modelling,data engineering,False,True,dimensional modelling
+5011395406,Machine learning,machine learning,True,False,Machine Learning
+5119755210,Communication,business & ways of working,False,True,communicating
+5119755697,Stakeholder management,business & ways of working,False,True,stakeholders
+5193855610,AI agents,generative AI,False,True,agentic
+5193855610,Generative AI,generative AI,False,True,generative AI
+5210480055,Python,programming,True,True,Python
+5210480065,Dashboards,BI & visualisation,False,True,dashboards
+5210480065,Data warehousing,data engineering,False,True,data warehouses
+5210480071,Dashboards,BI & visualisation,False,True,dashboards
+5210480072,Communication,business & ways of working,False,True,Communicate
+5210480072,Dashboards,BI & visualisation,False,True,dashboards
+5210480072,Stakeholder management,business & ways of working,False,True,stakeholders
+5210480343,JIRA,business & ways of working,False,True,JIRA
+5210480343,Python,programming,False,True,Python
+5210480343,SAS,programming,False,True,SAS
+5210480343,SQL,programming,False,True,SQL
+5210480351,Data quality,business & ways of working,False,True,data quality
+5210480373,Machine learning,machine learning,True,True,machine learning
+5210480373,Recommender systems,machine learning,False,True,recommendation systems
+5210480381,Deep learning,machine learning,False,True,deep learning
+5210480381,Machine learning,machine learning,False,True,machine learning
+5210480381,Statistics,statistics & methods,False,True,statistical
+5210481464,Generative AI,generative AI,False,True,generative AI
+5210481562,Excel,BI & visualisation,False,True,MS excel
+5210483090,Python,programming,False,True,Python
+5210485530,Machine learning,machine learning,False,True,Machine Learning
+5210486182,Machine learning,machine learning,False,True,Machine Learning
+5210487489,Alteryx,BI & visualisation,False,True,Alteryx
+5210487489,Data visualisation,BI & visualisation,False,True,visualization
+5210487489,Python,programming,False,True,Python
+5210487489,Tableau,BI & visualisation,False,True,Tableau
+5210489758,Data lake / lakehouse,data engineering,False,True,Data Lake
+5210489758,Hadoop,data engineering,False,True,Hadoop
+5210489758,SQL,programming,False,True,SQL
+5210489758,Spark,data engineering,False,True,Spark
+5210489758,Stakeholder management,business & ways of working,False,True,stakeholders
+5210489840,Deep learning,machine learning,False,True,deep learning
+5210489840,LLMs,generative AI,False,True,Large Language Models
+5210489840,Machine learning,machine learning,False,True,machine learning
+5210489851,Data lake / lakehouse,data engineering,False,True,Data Lake
+5210489851,Hadoop,data engineering,False,True,Hadoop
+5210489851,Python,programming,False,True,Python
+5210489851,SQL,programming,False,True,SQL
+5210489851,Scala,programming,False,True,Scala
+5210489851,Spark,data engineering,False,True,Spark
+5210489851,Stakeholder management,business & ways of working,False,True,stakeholders
+5210490500,Communication,business & ways of working,False,True,communicate
+5210490514,Communication,business & ways of working,False,True,communicate
+5210491046,Dashboards,BI & visualisation,False,True,dashboard
+5210491046,NLP,machine learning,True,False,NLP
+5295887594,Communication,business & ways of working,False,True,communicating
+5295889417,Dashboards,BI & visualisation,False,True,dashboards
+5295889417,Data warehousing,data engineering,False,True,data warehouses
+5329642758,SQL,programming,False,True,SQL
+5329647905,Machine learning,machine learning,False,True,machine learning
+5343491664,Machine learning,machine learning,False,True,machine learning
+5343498130,Azure,cloud & devops,False,True,Azure
+5343498130,Azure Synapse,databases & warehouses,False,True,Synapse
+5343498130,Data lake / lakehouse,data engineering,False,True,Lakehouse
+5343498130,Spark,data engineering,False,True,PySpark
+5355147506,Machine learning,machine learning,True,False,Machine Learning
+5388229017,APIs,cloud & devops,False,True,API
+5405038709,ETL / ELT,data engineering,False,True,ETL
+5405038709,Snowflake,databases & warehouses,True,True,Snowflake
+5406917722,AI agents,generative AI,False,True,AI agents
+5406917722,Machine learning,machine learning,True,False,Machine Learning
+5414235944,AI agents,generative AI,False,True,AI agents
+5414235944,Python,programming,True,False,Python
+5484654665,Computer vision,machine learning,False,True,Computer Vision
+5484654665,Machine learning,machine learning,False,True,Machine Learning
+5485159231,Machine learning,machine learning,True,True,Machine Learning
+5485159231,Model deployment,MLOps,False,True,productionise
+5494034971,Machine learning,machine learning,True,False,Machine Learning
+5495538862,Machine learning,machine learning,False,True,machine learning
+5505165842,Machine learning,machine learning,True,False,Machine Learning
+5509085792,Generative AI,generative AI,True,False,Generative AI
+5509085792,Stakeholder management,business & ways of working,False,True,stakeholders
+5510354959,AWS,cloud & devops,False,True,AWS
+5510354959,Data pipelines,data engineering,False,True,data pipelines
+5510354959,Databricks,data engineering,False,True,Databricks
+5510354959,Python,programming,False,True,Python
+5510354959,SQL,programming,False,True,SQL
+5521735219,SQL,programming,True,True,SQL
+5521735219,SQL Server,databases & warehouses,True,True,SQL Server
+5521735219,SSIS,data engineering,True,True,SSIS
+5532367130,Linux,cloud & devops,True,False,Linux
+5536080744,Dashboards,BI & visualisation,False,True,dashboards
+5536080744,Oracle,databases & warehouses,True,True,Oracle
+5544191640,LLMs,generative AI,False,True,LLMs
+5544191640,Oracle,databases & warehouses,True,True,Oracle
+5544191640,RAG,generative AI,False,True,RAG
+5544610485,Data visualisation,BI & visualisation,False,True,visualisation
+5544610485,Machine learning,machine learning,True,True,Machine Learning
+5551754227,Machine learning,machine learning,False,True,machine learning
+5553062391,Excel,BI & visualisation,False,True,Excel
+5553062391,SQL,programming,False,True,SQL
+5569812900,Machine learning,machine learning,True,True,Machine Learning
+5569812900,Model deployment,MLOps,False,True,model deployment
+5587829333,MLOps,MLOps,False,True,MLOps
+5587829333,Machine learning,machine learning,True,True,Machine Learning
+5595581820,Dashboards,BI & visualisation,False,True,dashboards
+5595581820,Data quality,business & ways of working,False,True,data quality
+5595581820,SQL,programming,False,True,SQL
+5597288012,Model deployment,MLOps,False,True,Productionize
+5604762463,AI agents,generative AI,False,True,AI agents
+5604770056,Machine learning,machine learning,False,True,machine learning
+5604770056,Stakeholder management,business & ways of working,False,True,stakeholders
+5636025977,SQL,programming,True,True,SQL
+5644865866,Machine learning,machine learning,True,False,Machine Learning
+5644867152,Machine learning,machine learning,True,False,Machine Learning
+5644868436,Machine learning,machine learning,False,True,machine learning
+5657681581,Optimisation,statistics & methods,True,False,Operations Research
+5658607178,Machine learning,machine learning,True,False,Machine Learning
+5661494972,Machine learning,machine learning,True,False,Machine Learning
+5666303399,Machine learning,machine learning,True,False,Machine Learning
+5679132682,OpenAI API,generative AI,False,True,OpenAI
+5681249958,Salesforce,business & ways of working,False,True,Salesforce
+5681257955,Salesforce,business & ways of working,False,True,Salesforce
+5688569998,Machine learning,machine learning,True,True,Machine Learning
+5689750510,Machine learning,machine learning,True,True,Machine Learning
+5689750510,Stakeholder management,business & ways of working,False,True,stakeholders
+5695505698,Machine learning,machine learning,True,True,Machine Learning
+5696592890,Data lake / lakehouse,data engineering,False,True,lakehouse
+5701319396,Machine learning,machine learning,True,True,Machine Learning
+5701319396,Stakeholder management,business & ways of working,False,True,stakeholders
+5702456171,Machine learning,machine learning,False,True,Machine Learning
+5702456506,Master data,business & ways of working,False,True,MDM
+5704451460,Machine learning,machine learning,True,True,machine learning
+5704451460,Python,programming,False,True,Python
+5705308087,ETL / ELT,data engineering,False,True,ETL
+5705308087,Forecasting / time series,machine learning,False,True,forecasting
+5705308087,LLMs,generative AI,False,True,Large Language Model
+5705308087,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5709490418,Machine learning,machine learning,True,False,Machine Learning
+5710435997,Machine learning,machine learning,False,True,Machine Learning
+5713756783,Machine learning,machine learning,True,False,Machine Learning
+5714262734,Machine learning,machine learning,True,False,Machine Learning
+5717296089,Prompt engineering,generative AI,False,True,prompting
+5717296508,Machine learning,machine learning,True,False,Machine Learning
+5717296508,Prompt engineering,generative AI,False,True,prompting
+5719888186,Machine learning,machine learning,False,True,machine learning
+5720119741,Machine learning,machine learning,True,False,Machine Learning
+5722144416,Machine learning,machine learning,True,False,Machine Learning
+5722147703,Machine learning,machine learning,True,True,Machine Learning
+5724610134,Machine learning,machine learning,True,True,Machine Learning
+5726495982,Machine learning,machine learning,True,False,Machine Learning
+5729119954,Machine learning,machine learning,True,True,Machine Learning
+5731110353,Machine learning,machine learning,True,True,machine learning
+5732352619,Machine learning,machine learning,True,False,Machine Learning
+5733982753,Agile,business & ways of working,False,True,agile
+5733982753,Data pipelines,data engineering,False,True,data pipelines
+5736523854,Python,programming,False,True,Python
+5736523854,R,programming,False,True,R
+5737508612,A/B testing,statistics & methods,False,True,experimentation
+5737508612,Machine learning,machine learning,True,True,Machine Learning
+5737580835,Machine learning,machine learning,False,True,machine learning
+5738763090,A/B testing,statistics & methods,False,True,experimentation
+5738763090,PyTorch,machine learning,False,True,PyTorch
+5738774465,Machine learning,machine learning,True,False,Machine Learning
+5739755140,Machine learning,machine learning,True,True,Machine Learning
+5740552620,Data pipelines,data engineering,False,True,data pipelines
+5740552620,Data quality,business & ways of working,False,True,data quality
+5740552620,GCP,cloud & devops,False,True,GCP
+5742305566,Data pipelines,data engineering,False,True,data pipeline
+5743582926,Machine learning,machine learning,True,True,Machine Learning
+5745452748,Azure,cloud & devops,False,True,Azure
+5745452748,Databricks,data engineering,False,True,Databricks
+5745452748,Microsoft Fabric,databases & warehouses,False,True,Fabric
+5745452748,SQL,programming,False,True,SQL
+5745452748,Spark,data engineering,False,True,PySpark
+5746366831,Machine learning,machine learning,False,True,machine learning
+5746366831,Statistics,statistics & methods,False,True,statistical
+5747626499,AI agents,generative AI,False,True,agentic
+5747626499,Generative AI,generative AI,True,True,Generative AI
+5749563823,Machine learning,machine learning,False,True,machine learning
+5750343531,Machine learning,machine learning,True,True,Machine Learning
+5751290923,AI agents,generative AI,False,True,agentic
+5751290923,Generative AI,generative AI,True,True,Generative AI
+5753320753,Machine learning,machine learning,True,False,Machine Learning
+5754568858,Machine learning,machine learning,False,True,machine learning
+5758423078,Computer vision,machine learning,False,True,computer vision
+5758423078,Deep learning,machine learning,False,True,Deep Learning
+5758423155,AI agents,generative AI,False,True,agentic
+5770809603,Machine learning,machine learning,True,True,Machine Learning
+5772659618,Generative AI,generative AI,False,True,generative AI
+5772659618,Machine learning,machine learning,False,True,machine learning
+5772659618,NLP,machine learning,False,True,NLP
+5774976364,Generative AI,generative AI,False,True,generative AI
+5774976364,Machine learning,machine learning,False,True,machine learning
+5774976364,NLP,machine learning,False,True,NLP
+5776438824,Machine learning,machine learning,False,True,machine learning
+5776440043,AI agents,generative AI,False,True,Agentic
+5776440043,Generative AI,generative AI,False,True,Generative AI
+5780347277,Machine learning,machine learning,False,True,machine learning
+5780348094,AI agents,generative AI,False,True,Agentic
+5780348094,Generative AI,generative AI,False,True,Generative AI
+5782101606,Generative AI,generative AI,False,True,generative AI
+5782101606,Machine learning,machine learning,True,False,Machine Learning
+5785363345,Data pipelines,data engineering,False,True,data pipelines
+5785363345,LLMs,generative AI,False,True,LLM
+5785934003,A/B testing,statistics & methods,False,True,experimentation
+5785934003,Machine learning,machine learning,False,True,machine learning
+5785934003,Stakeholder management,business & ways of working,False,True,stakeholder
+5785934003,Statistics,statistics & methods,False,True,statistical
+5786994018,Machine learning,machine learning,True,False,Machine Learning
+5792709533,Stakeholder management,business & ways of working,False,True,stakeholder
+5794230462,Machine learning,machine learning,True,True,Machine Learning
+5794247085,Machine learning,machine learning,False,True,machine learning
+5795605931,Machine learning,machine learning,True,False,Machine Learning
+5796947557,Machine learning,machine learning,True,False,Machine Learning
+5797457031,GCP,cloud & devops,True,True,Google Cloud
+5797457031,Generative AI,generative AI,False,True,generative AI
+5797928268,Machine learning,machine learning,False,True,machine learning
+5797928268,Statistics,statistics & methods,False,True,statistical
+5797951239,Databricks,data engineering,False,True,Databricks
+5797951239,Generative AI,generative AI,False,True,GenAI
+5797951239,LLMs,generative AI,False,True,LLM
+5797951239,Machine learning,machine learning,False,True,Machine Learning
+5799953140,Machine learning,machine learning,True,False,Machine Learning
+5799954769,Machine learning,machine learning,True,False,Machine Learning
+5799960933,Machine learning,machine learning,True,False,Machine Learning
+5800178666,Machine learning,machine learning,False,True,machine learning
+5801186567,APIs,cloud & devops,False,True,APIs
+5801186567,LLMs,generative AI,False,True,LLMs
+5801186567,Machine learning,machine learning,True,False,Machine Learning
+5801187577,Machine learning,machine learning,True,True,machine learning
+5801264637,AI agents,generative AI,False,True,agentic
+5801264651,AI agents,generative AI,False,True,agentic
+5801264651,Machine learning,machine learning,True,False,Machine Learning
+5801408855,Machine learning,machine learning,True,True,machine learning
+5802819322,Data pipelines,data engineering,False,True,data pipelines
+5802840423,Machine learning,machine learning,True,False,Machine Learning
+5803810236,AI agents,generative AI,False,True,Agentic
+5803810236,Data lake / lakehouse,data engineering,False,True,data lake
+5803810236,Data pipelines,data engineering,False,True,data pipelines
+5805129842,Machine learning,machine learning,True,True,Machine Learning
+5806143701,Machine learning,machine learning,True,False,Machine Learning
+5806149423,Deep learning,machine learning,False,True,Deep Learning
+5806149423,Machine learning,machine learning,False,True,machine learning
+5806666098,Machine learning,machine learning,True,True,Machine Learning
+5808134378,Machine learning,machine learning,True,True,Machine Learning
+5810681239,AI agents,generative AI,False,True,agentic
+5810681239,Machine learning,machine learning,True,True,machine learning
+5810681239,Statistics,statistics & methods,False,True,statistical
+5810687243,Machine learning,machine learning,True,True,Machine Learning
+5810687255,AI agents,generative AI,False,True,AI agents
+5810687255,Vector databases,generative AI,False,True,vector databases
+5810687694,Machine learning,machine learning,True,False,Machine Learning
+5810687903,Salesforce,business & ways of working,False,True,Salesforce
+5810691224,Machine learning,machine learning,True,False,Machine Learning
+5810695384,Machine learning,machine learning,False,True,machine learning
+5810697325,Machine learning,machine learning,True,False,Machine Learning
+5812025509,A/B testing,statistics & methods,False,True,experimentation
+5812025509,Machine learning,machine learning,True,True,Machine Learning
+5812138246,Machine learning,machine learning,True,False,Machine Learning
+5812152891,AI agents,generative AI,False,True,agentic
+5812152891,Generative AI,generative AI,False,True,generative AI
+5815358332,AI agents,generative AI,False,True,agentic
+5815363799,AI agents,generative AI,False,True,agentic
+5815363799,LLMs,generative AI,False,True,LLM
+5815363799,LangChain / LangGraph,generative AI,False,True,LangChain
+5815363799,Machine learning,machine learning,True,False,Machine Learning
+5816496763,Generative AI,generative AI,False,True,generative AI
+5816499112,MLOps,MLOps,True,False,MLOps
+5819014767,Communication,business & ways of working,False,True,communicate
+5821202896,Machine learning,machine learning,True,False,Machine Learning
+5821413789,AI agents,generative AI,True,False,Agentic
+5821413789,Agile,business & ways of working,False,True,agile
+5821413789,Machine learning,machine learning,False,True,Machine Learning
+5821413789,Python,programming,True,False,Python
+5821649014,Forecasting / time series,machine learning,False,True,forecasting
+5823388382,Machine learning,machine learning,True,False,Machine Learning
+5824359323,Machine learning,machine learning,True,False,Machine Learning
+5825871976,AI agents,generative AI,True,False,Agentic
+5827024108,Deep learning,machine learning,True,True,Neural Networks
+5827024108,Machine learning,machine learning,True,True,Machine Learning
+5827156043,Machine learning,machine learning,False,True,Machine Learning
+5827700913,AI agents,generative AI,False,True,Agentic
+5827700913,Deep learning,machine learning,False,True,Deep Learning
+5827700913,Generative AI,generative AI,False,True,Generative AI
+5827700913,Hugging Face,generative AI,False,True,Transformers
+5827700913,LLMs,generative AI,False,True,LLMs
+5827700913,Machine learning,machine learning,False,True,Machine Learning
+5828061421,LLMs,generative AI,False,True,large language models
+5828061421,Machine learning,machine learning,False,True,machine learning
+5829341270,Machine learning,machine learning,True,False,Machine Learning
+5832259750,Machine learning,machine learning,True,False,Machine Learning
+5833781975,AI agents,generative AI,False,True,agentic
+5833781975,Generative AI,generative AI,False,True,generative AI
+5833781975,LLMs,generative AI,True,True,Large Language Model
+5833781975,Machine learning,machine learning,False,True,machine learning
+5833785289,Data visualisation,BI & visualisation,False,True,data visualization
+5833785289,SQL,programming,True,False,SQL
+5834202906,Dashboards,BI & visualisation,False,True,dashboards
+5834872628,AI agents,generative AI,False,True,agentic
+5835199600,Machine learning,machine learning,True,True,machine learning
+5835199623,Statistics,statistics & methods,False,True,statistical
+5836261892,Machine learning,machine learning,False,True,machine learning
+5836261901,Stakeholder management,business & ways of working,False,True,stakeholder
+5836848480,Generative AI,generative AI,True,True,Generative AI
+5836848480,LLMs,generative AI,False,True,LLM
+5836848480,Machine learning,machine learning,False,True,machine learning
+5836848480,RAG,generative AI,False,True,Retrieval-Augmented Generation
+5836852336,Machine learning,machine learning,True,False,Machine Learning
+5837586939,Statistics,statistics & methods,False,True,statistical
+5837586968,Stakeholder management,business & ways of working,False,True,stakeholder
+5837640484,Azure,cloud & devops,True,False,Azure
+5838443697,Databricks,data engineering,True,False,Databricks
+5838448394,Machine learning,machine learning,False,True,machine learning
+5838470212,Machine learning,machine learning,True,False,Machine Learning
+5838470212,Prompt engineering,generative AI,False,True,prompting
+5838471104,Machine learning,machine learning,False,True,machine learning
+5838478552,Data governance,business & ways of working,False,True,data governance
+5838478552,Data pipelines,data engineering,False,True,data pipelines
+5839220930,Dashboards,BI & visualisation,False,True,dashboards
+5840383063,Machine learning,machine learning,True,False,Machine Learning
+5840385503,Machine learning,machine learning,True,True,machine learning
+5840386023,Data pipelines,data engineering,False,True,Data Pipelines
+5840386023,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5840392949,Machine learning,machine learning,True,False,Machine Learning
+5841981186,AI agents,generative AI,False,True,agentic
+5841981186,Generative AI,generative AI,True,True,Generative AI
+5844297405,Machine learning,machine learning,True,False,Machine Learning
+5844301257,Machine learning,machine learning,True,False,Machine Learning
+5844313934,Machine learning,machine learning,True,False,Machine Learning
+5844335642,Machine learning,machine learning,True,False,Machine Learning
+5845241735,Machine learning,machine learning,True,False,Machine Learning
+5845241735,Prompt engineering,generative AI,False,True,prompting
+5845316773,Data warehousing,data engineering,False,True,data warehouse
+5847552144,AI agents,generative AI,False,True,agentic
+5847552144,Data pipelines,data engineering,False,True,data pipelines
+5847552144,Generative AI,generative AI,False,True,GenAI
+5847552208,AI agents,generative AI,False,True,agentic
+5847552208,Data pipelines,data engineering,False,True,data pipelines
+5847552208,Generative AI,generative AI,False,True,GenAI
+5847552274,AI agents,generative AI,False,True,multi-agent
+5847552274,LLMs,generative AI,True,True,LLM
+5847552274,RAG,generative AI,False,True,RAG
+5847670994,Stakeholder management,business & ways of working,False,True,stakeholder
+5849098497,Machine learning,machine learning,True,True,Machine Learning
+5849549820,Machine learning,machine learning,True,False,Machine Learning
+5849677129,Machine learning,machine learning,False,True,machine learning
+5849683891,Data pipelines,data engineering,False,True,data pipelines
+5849683891,Data quality,business & ways of working,False,True,data quality
+5849697946,CI/CD,cloud & devops,False,True,CI/CD
+5849697946,Data pipelines,data engineering,False,True,data pipelines
+5849697946,ETL / ELT,data engineering,False,True,ETL
+5849697946,Oracle,databases & warehouses,False,True,Oracle
+5849882990,Data quality,business & ways of working,False,True,data quality
+5851175583,Machine learning,machine learning,True,False,Machine Learning
+5852579793,Stakeholder management,business & ways of working,False,True,stakeholders
+5852583614,Forecasting / time series,machine learning,False,True,forecasting
+5852590604,Machine learning,machine learning,True,False,Machine Learning
+5853708327,Stakeholder management,business & ways of working,False,True,stakeholders
+5853714599,MLOps,MLOps,True,True,MLOps
+5854089662,Stakeholder management,business & ways of working,False,True,stakeholder
+5855716317,Communication,business & ways of working,False,True,communicate
+5855716317,Dashboards,BI & visualisation,False,True,dashboards
+5855716317,Stakeholder management,business & ways of working,False,True,stakeholders
+5856970186,Machine learning,machine learning,True,False,Machine Learning
+5857250910,Machine learning,machine learning,False,True,Machine Learning
+5858364174,Data governance,business & ways of working,False,True,data governance
+5858367225,Machine learning,machine learning,True,True,Machine Learning
+5858370328,Snowflake,databases & warehouses,True,False,Snowflake
+5858382623,AI agents,generative AI,True,True,Agentic
+5858382623,Generative AI,generative AI,False,True,generative AI
+5858382623,RAG,generative AI,False,True,retrieval-augmented generation
+5858403828,LLMs,generative AI,False,True,LLM
+5859060123,Databricks,data engineering,True,True,Databricks
+5859060127,Snowflake,databases & warehouses,True,True,Snowflake
+5859756824,Machine learning,machine learning,False,True,machine learning
+5859756824,PyTorch,machine learning,True,True,PyTorch
+5859768694,Snowflake,databases & warehouses,True,True,Snowflake
+5859771399,Databricks,data engineering,True,False,Databricks
+5859772453,Data warehousing,data engineering,False,True,data warehouse
+5859772453,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5859772453,Power BI,BI & visualisation,False,True,Power BI
+5859772700,Python,programming,True,False,Python
+5859783752,Databricks,data engineering,True,True,Databricks
+5861221848,Machine learning,machine learning,True,True,machine learning
+5861222094,Kubernetes,cloud & devops,False,True,Kubernetes
+5861222094,Linux,cloud & devops,False,True,Linux
+5861232928,AI agents,generative AI,True,True,agentic
+5861233145,Generative AI,generative AI,False,True,generative AI
+5861233202,Prompt engineering,generative AI,False,True,prompting
+5862295087,AWS,cloud & devops,False,True,AWS
+5862295087,GCP,cloud & devops,False,True,GCP
+5862304800,Stakeholder management,business & ways of working,False,True,stakeholders
+5862688230,Dashboards,BI & visualisation,False,True,dashboards
+5862688245,Dashboards,BI & visualisation,False,True,dashboards
+5864148011,Machine learning,machine learning,False,True,machine learning
+5864148011,NLP,machine learning,False,True,Natural Language Processing
+5864148012,Machine learning,machine learning,False,True,machine learning
+5864148012,NLP,machine learning,False,True,Natural Language Processing
+5864625332,Data pipelines,data engineering,False,True,data pipelines
+5864625332,ETL / ELT,data engineering,False,True,ETL
+5866113102,APIs,cloud & devops,False,True,APIs
+5866113102,CI/CD,cloud & devops,False,True,CI/CD
+5866113102,Data pipelines,data engineering,False,True,Data pipelines
+5866113102,ETL / ELT,data engineering,False,True,ETL
+5866113102,LLMs,generative AI,False,True,LLMs
+5866113102,LangChain / LangGraph,generative AI,False,True,LangChain
+5866113102,Prompt engineering,generative AI,False,True,Prompt engineering
+5866113102,Python,programming,False,True,Python
+5866113102,RAG,generative AI,False,True,RAG
+5867236624,SQL,programming,False,True,SQL
+5867244409,Salesforce,business & ways of working,False,True,Salesforce
+5867273131,AWS,cloud & devops,True,True,AWS
+5867273131,Generative AI,generative AI,True,True,GenAI
+5869138521,Data pipelines,data engineering,False,True,data pipelines
+5869184115,Machine learning,machine learning,False,True,machine learning
+5869807199,Data pipelines,data engineering,False,True,data pipelines
+5870770415,AWS,cloud & devops,True,True,AWS
+5870770415,Generative AI,generative AI,True,True,GenAI
+5871239491,AWS,cloud & devops,True,True,AWS
+5871239491,Generative AI,generative AI,True,True,GenAI
+5871242121,Data lake / lakehouse,data engineering,False,True,Lakehouse
+5871242121,Data pipelines,data engineering,False,True,Data Pipeline
+5871242121,Databricks,data engineering,True,True,Databricks
+5872099820,Data lake / lakehouse,data engineering,False,True,Lakehouse
+5872099820,Data pipelines,data engineering,False,True,Data Pipeline
+5872099820,Databricks,data engineering,True,True,Databricks
+5872110577,Dashboards,BI & visualisation,False,True,dashboards
+5872126605,Machine learning,machine learning,True,True,machine learning
+5873154236,Machine learning,machine learning,False,True,machine learning
+5873187275,Machine learning,machine learning,True,False,Machine Learning
+5873203012,Dashboards,BI & visualisation,False,True,dashboards
+5873203012,Power BI,BI & visualisation,False,True,Power BI
+5873203012,Stakeholder management,business & ways of working,False,True,stakeholders
+5874217186,RAG,generative AI,False,True,retrieval-augmented generation
+5875592213,Dashboards,BI & visualisation,False,True,dashboards
+5875592213,Power BI,BI & visualisation,False,True,Power BI
+5877243307,AI agents,generative AI,False,True,agentic
+5877243307,Machine learning,machine learning,False,True,machine learning
+5877292783,Machine learning,machine learning,True,True,Machine Learning
+5877357597,Azure,cloud & devops,False,True,Azure
+5877709646,Data quality,business & ways of working,False,True,data quality
+5877709646,SQL,programming,False,True,SQL
+5877813760,AWS,cloud & devops,True,True,AWS
+5877813760,Machine learning,machine learning,False,True,machine learning
+5877814433,A/B testing,statistics & methods,True,True,Experimentation
+5877814433,Machine learning,machine learning,True,False,Machine Learning
+5877814433,Statistics,statistics & methods,False,True,Statistics
+5878674118,AI agents,generative AI,False,True,AI agents
+5878707995,AWS,cloud & devops,True,True,AWS
+5878707995,Machine learning,machine learning,False,True,machine learning
+5878793645,AI agents,generative AI,False,True,agentic
+5878868681,Excel,BI & visualisation,False,True,Excel
+5879117367,Machine learning,machine learning,True,True,Machine Learning
+5879389380,Machine learning,machine learning,True,False,Machine Learning
+5879873803,Machine learning,machine learning,True,True,Machine Learning
+5879874709,Agile,business & ways of working,False,True,agile
+5879942598,SQL,programming,False,True,SQL
+5879944968,Machine learning,machine learning,False,True,Machine Learning
+5880123985,Forecasting / time series,machine learning,False,True,forecasting
+5880123985,Machine learning,machine learning,True,True,Machine Learning
+5881131284,Kubernetes,cloud & devops,False,True,Kubernetes
+5881144556,Machine learning,machine learning,True,False,Machine Learning
+5881155052,Machine learning,machine learning,False,True,machine learning
+5882742570,OpenAI API,generative AI,False,True,OpenAI
+5882755740,Machine learning,machine learning,True,False,Machine Learning
+5882767020,Dashboards,BI & visualisation,False,True,dashboards
+5882775670,Machine learning,machine learning,True,False,Machine Learning
+5882777420,Machine learning,machine learning,True,False,Machine Learning
+5883116044,Statistics,statistics & methods,False,True,statistical
+5883116058,Econometrics,statistics & methods,False,True,Econometrics
+5883904280,Data modelling,data engineering,False,True,data modelling
+5883907745,Data modelling,data engineering,False,True,data modelling
+5883907745,Data visualisation,BI & visualisation,False,True,Visualisation
+5884490168,Prompt engineering,generative AI,False,True,prompting
+5884774222,Stakeholder management,business & ways of working,False,True,stakeholders
+5884992674,Machine learning,machine learning,False,True,machine learning
+5884997543,C++,programming,True,False,C++
+5884997543,Data visualisation,BI & visualisation,False,True,visualisation
+5884997543,Machine learning,machine learning,True,True,Machine Learning
+5884997543,Python,programming,True,False,Python
+5885140159,AWS,cloud & devops,True,True,AWS
+5885140159,Machine learning,machine learning,False,True,Machine Learning
+5885140159,Python,programming,True,True,Python
+5885140615,Machine learning,machine learning,False,True,machine learning
+5885140615,Statistics,statistics & methods,False,True,statistical
+5885438066,Machine learning,machine learning,True,False,Machine Learning
+5885438080,MLOps,MLOps,True,False,MLOps
+5885439981,Python,programming,True,False,Python
+5885646233,Machine learning,machine learning,False,True,machine-learning
+5885646233,Python,programming,False,True,Python
+5885646233,SQL,programming,False,True,SQL
+5885646233,Stakeholder management,business & ways of working,False,True,stakeholder
+5885646233,Statistics,statistics & methods,False,True,statistical
+5885918152,Machine learning,machine learning,True,True,Machine Learning
+5886166904,Machine learning,machine learning,True,True,Machine Learning
+5886642982,SQL,programming,False,True,SQL
+5887173997,Machine learning,machine learning,False,True,machine-learning
+5887174226,Power BI,BI & visualisation,False,True,Power BI
+5887175056,Machine learning,machine learning,False,True,machine-learning
+5887175056,Statistics,statistics & methods,False,True,statistical
+5887443031,Azure,cloud & devops,False,True,Azure
+5887443031,Microsoft Fabric,databases & warehouses,False,True,Fabric
+5887444433,Fine-tuning,generative AI,False,True,fine-tuning
+5887444433,Python,programming,False,True,Python
+5887450315,Snowflake,databases & warehouses,False,True,Snowflake
+5887475614,AI agents,generative AI,True,False,Agentic
+5887475614,Machine learning,machine learning,True,False,Machine Learning
+5888197271,Java,programming,True,True,Java
+5888197976,AWS,cloud & devops,False,True,AWS
+5888197976,Python,programming,False,True,Python
+5888197976,SQL,programming,False,True,SQL
+5888197976,Snowflake,databases & warehouses,False,True,Snowflake
+5888204253,Stakeholder management,business & ways of working,False,True,stakeholders
+5888511284,AWS,cloud & devops,True,False,AWS
+5888730569,Dashboards,BI & visualisation,False,True,dashboards
+5888730569,Data quality,business & ways of working,False,True,data quality
+5888730571,Data pipelines,data engineering,False,True,Data Pipelines
+5888730571,ETL / ELT,data engineering,False,True,ETL
+5888730571,NoSQL,databases & warehouses,False,True,NoSQL
+5888730571,SQL,programming,False,True,SQL
+5888731229,AWS,cloud & devops,False,True,AWS
+5888731229,Python,programming,False,True,Python
+5888731229,SQL,programming,False,True,SQL
+5888731229,Snowflake,databases & warehouses,False,True,Snowflake
+5889010764,LLMs,generative AI,False,True,large language models
+5889015033,LLMs,generative AI,False,True,large language models
+5889022428,Machine learning,machine learning,True,True,Machine Learning
+5889030611,Databricks,data engineering,False,True,Databricks
+5889030611,Generative AI,generative AI,False,True,GenAI
+5889030611,Model deployment,MLOps,False,True,productionize
+5889039373,Machine learning,machine learning,True,True,machine learning
+5889647016,Power BI,BI & visualisation,True,True,Power BI
+5890034444,Data pipelines,data engineering,False,True,data pipelines
+5890213623,AI agents,generative AI,False,True,Agentic
+5890213623,AWS,cloud & devops,True,False,AWS
+5890213623,Data pipelines,data engineering,False,True,data pipelines
+5890213623,Python,programming,False,True,Python
+5890213623,SQL,programming,False,True,SQL
+5890213623,dbt,data engineering,False,True,DBT
+5890649076,Azure,cloud & devops,True,True,Azure
+5891553613,Stakeholder management,business & ways of working,False,True,stakeholders
+5891556199,AI agents,generative AI,False,True,agentic
+5891558614,Data modelling,data engineering,False,True,data modelling
+5891558614,Data visualisation,BI & visualisation,False,True,data visualisation
+5893599746,Machine learning,machine learning,False,True,machine learning
+5893600655,Azure,cloud & devops,False,True,Azure
+5893600655,Data pipelines,data engineering,False,True,data pipelines
+5893600655,Python,programming,False,True,Python
+5893600655,SQL,programming,False,True,SQL
+5894159502,Fine-tuning,generative AI,False,True,fine-tuning
+5894312452,Machine learning,machine learning,True,True,Machine Learning
+5894312868,SAP,business & ways of working,False,True,SAP
+5894312876,Data lake / lakehouse,data engineering,False,True,lakehouse
+5894312924,Data modelling,data engineering,False,True,data modelling
+5894312924,Data visualisation,BI & visualisation,False,True,data visualisation
+5894314159,Azure,cloud & devops,False,True,Azure
+5894314159,Azure Synapse,databases & warehouses,False,True,Synapse
+5894314159,Microsoft Fabric,databases & warehouses,True,True,Microsoft Fabric
+5894314160,Azure,cloud & devops,False,True,Azure
+5894314160,Azure Synapse,databases & warehouses,False,True,Synapse
+5894314160,Microsoft Fabric,databases & warehouses,True,True,Microsoft Fabric
+5894314167,Data quality,business & ways of working,False,True,Data Quality
+5894314167,Power BI,BI & visualisation,True,True,Power BI
+5894314167,SQL,programming,True,True,SQL
+5895205733,Dashboards,BI & visualisation,False,True,dashboards
+5895205733,Power BI,BI & visualisation,True,True,Power BI
+5895233965,Machine learning,machine learning,True,True,Machine Learning
+5895236809,Data lake / lakehouse,data engineering,False,True,Lakehouse
+5895236809,Databricks,data engineering,False,True,Databricks
+5895656142,Dashboards,BI & visualisation,False,True,dashboards
+5895660828,Databricks,data engineering,False,True,Databricks
+5895661218,AI agents,generative AI,False,True,agentic
+5895661218,Generative AI,generative AI,False,True,Generative AI
+5895661218,RAG,generative AI,False,True,RAG
+5896103219,Dashboards,BI & visualisation,False,True,dashboards
+5896103219,SQL,programming,False,True,SQL
+5896305695,Machine learning,machine learning,False,True,machine learning
+5896309804,AI agents,generative AI,True,True,Agentic
+5896309804,Generative AI,generative AI,True,True,Generative AI
+5896739072,Dashboards,BI & visualisation,False,True,dashboards
+5896739072,SQL,programming,False,True,SQL
+5896913383,AI agents,generative AI,False,True,agentic
+5896913383,Communication,business & ways of working,False,True,communicate
+5896918143,Machine learning,machine learning,False,True,machine learning
+5896918496,GCP,cloud & devops,True,True,Google Cloud
+5896918763,LLMs,generative AI,True,False,LLM
+5896918763,Machine learning,machine learning,True,False,Machine Learning
+5896918869,AI agents,generative AI,False,True,agentic
+5896918869,Generative AI,generative AI,False,True,generative AI
+5896918869,Salesforce,business & ways of working,True,True,Salesforce
+5896920517,Data warehousing,data engineering,False,True,data warehouse
+5896920781,Machine learning,machine learning,True,True,Machine Learning
+5896924061,Statistics,statistics & methods,False,True,statistical
+5896924922,AI agents,generative AI,False,True,multi-agent
+5896924922,LLMs,generative AI,True,True,LLM
+5896924922,Machine learning,machine learning,True,True,Machine Learning
+5896928212,AI agents,generative AI,False,True,agentic
+5896928212,LLMs,generative AI,False,True,LLM
+5896928212,Machine learning,machine learning,True,True,Machine Learning
+5896957145,APIs,cloud & devops,False,True,API
+5896957145,Data pipelines,data engineering,False,True,data pipelines
+5897075549,Bayesian methods,statistics & methods,False,True,Bayesian
+5897075549,Econometrics,statistics & methods,False,True,econometric
+5897075549,Stakeholder management,business & ways of working,False,True,stakeholders
+5897333269,Python,programming,False,True,Python
+5897333269,SQL,programming,False,True,SQL
+5897334860,Machine learning,machine learning,True,True,Machine Learning
+5897334860,Python,programming,False,True,Python
+5897706638,Azure,cloud & devops,False,True,Azure
+5897706638,Azure Data Factory,data engineering,False,True,Azure Data Factory
+5897706638,ETL / ELT,data engineering,False,True,ETL
+5897706638,SQL,programming,False,True,SQL
+5897707236,Stakeholder management,business & ways of working,False,True,stakeholders
+5897707236,Statistics,statistics & methods,False,True,Statistics
+5897878877,Data warehousing,data engineering,False,True,data warehouse
+5898090253,AI agents,generative AI,False,True,multi-agent
+5898090253,Generative AI,generative AI,False,True,genAI
+5898228302,Data pipelines,data engineering,False,True,data pipelines
+5898228302,Kafka,data engineering,False,True,Kafka
+5898367821,Communication,business & ways of working,False,True,communicate
+5898367821,Generative AI,generative AI,True,False,Generative AI
+5898367821,Machine learning,machine learning,True,False,Machine Learning
+5898373072,Machine learning,machine learning,False,True,machine learning
+5898376497,Machine learning,machine learning,True,False,Machine Learning
+5898543180,CI/CD,cloud & devops,False,True,continuous deployment
+5898714498,Data pipelines,data engineering,False,True,data pipelines
+5898716641,Dashboards,BI & visualisation,False,True,dashboards
+5898716641,Oracle,databases & warehouses,True,True,Oracle
+5898869289,Data quality,business & ways of working,False,True,data-quality
+5899016112,Communication,business & ways of working,False,True,communicate
+5899016112,Generative AI,generative AI,True,False,Generative AI
+5899016112,Machine learning,machine learning,True,False,Machine Learning
+5899751592,Data warehousing,data engineering,False,True,data warehouse
+5899752774,A/B testing,statistics & methods,True,False,Experimentation
+5899754789,Python,programming,False,True,Python
+5899754789,R,programming,False,True,R
+5899754789,SQL,programming,False,True,SQL
+5899754789,Statistics,statistics & methods,False,True,Statistics
+5899754920,A/B testing,statistics & methods,True,False,Experimentation
+5899755742,Statistics,statistics & methods,False,True,statistical
+5899758435,Dashboards,BI & visualisation,False,True,dashboards
+5899758435,Oracle,databases & warehouses,True,True,Oracle
+5899760616,Generative AI,generative AI,False,True,generative AI
+5899760616,LLMs,generative AI,False,True,LLM
+5899939739,Excel,BI & visualisation,False,True,Excel
+5899939739,Statistics,statistics & methods,False,True,Statistics
+5900165175,A/B testing,statistics & methods,False,True,experimentation
+5900165175,AWS,cloud & devops,False,True,AWS
+5900165175,Machine learning,machine learning,False,True,machine learning
+5900643140,Power BI,BI & visualisation,False,True,Power BI
+5900643140,Stakeholder management,business & ways of working,False,True,stakeholders
+5901461921,Excel,BI & visualisation,False,True,Excel
+5901463106,Excel,BI & visualisation,False,True,Excel
+5901923397,AI agents,generative AI,False,True,agentic
+5901923397,LLMs,generative AI,False,True,LLM
+5902562007,A/B testing,statistics & methods,False,True,experimentation
+5902562007,LLMs,generative AI,False,True,Large Language Models
+5902562007,Machine learning,machine learning,True,True,Machine Learning
+5902841986,APIs,cloud & devops,False,True,APIs
+5902841986,AWS,cloud & devops,False,True,AWS
+5902841986,LLMs,generative AI,False,True,LLMs
+5902841986,LangChain / LangGraph,generative AI,False,True,LangChain
+5902841986,OpenAI API,generative AI,False,True,OpenAI
+5902841986,Python,programming,False,True,Python
+5902862777,Azure,cloud & devops,True,True,Azure
+5902903579,Oracle,databases & warehouses,False,True,Oracle
+5902949034,Stakeholder management,business & ways of working,False,True,stakeholder
+5903022900,Communication,business & ways of working,False,True,communicate
+5903022900,Dashboards,BI & visualisation,False,True,dashboards
+5903022900,Stakeholder management,business & ways of working,False,True,stakeholders
+5903493155,Data warehousing,data engineering,False,True,Data warehousing
+5903493155,ETL / ELT,data engineering,False,True,ETL
+5903493155,NoSQL,databases & warehouses,False,True,NoSQL
+5903493155,Python,programming,False,True,Python
+5903493155,SQL,programming,False,True,SQL
+5903624124,Statistics,statistics & methods,False,True,statistical
+5903630884,Machine learning,machine learning,False,True,machine learning
+5903631393,Databricks,data engineering,True,True,Databricks
+5903631562,Agile,business & ways of working,False,True,agile
+5903631562,Kubernetes,cloud & devops,True,False,Kubernetes
+5903631562,Machine learning,machine learning,False,True,Machine Learning
+5903631562,Python,programming,True,False,Python
+5903633517,Statistics,statistics & methods,False,True,statistical
+5903633555,MLOps,MLOps,True,True,MLOps
+5903636254,Stakeholder management,business & ways of working,False,True,stakeholders
+5903930404,AI agents,generative AI,False,True,agentic
+5903930404,BigQuery,databases & warehouses,False,True,BigQuery
+5903930404,GCP,cloud & devops,False,True,GCP
+5903930404,LLMs,generative AI,False,True,LLM
+5903930404,Machine learning,machine learning,True,True,Machine Learning
+5903930404,NLP,machine learning,False,True,NLP
+5903930404,Python,programming,False,True,Python
+5903930404,Vertex AI,MLOps,False,True,Vertex AI
+5903981076,Azure,cloud & devops,False,True,Azure
+5903981076,Azure Synapse,databases & warehouses,False,True,Synapse
+5903981076,Microsoft Fabric,databases & warehouses,True,True,Microsoft Fabric
+5903981080,Data lake / lakehouse,data engineering,False,True,lakehouse
+5904036486,Machine learning,machine learning,False,True,machine learning
+5904077609,AI agents,generative AI,False,True,agentic
+5904077609,BigQuery,databases & warehouses,False,True,BigQuery
+5904077609,GCP,cloud & devops,False,True,GCP
+5904077609,LLMs,generative AI,False,True,LLM
+5904077609,Machine learning,machine learning,True,True,Machine Learning
+5904077609,NLP,machine learning,False,True,NLP
+5904077609,Python,programming,False,True,Python
+5904077609,Vertex AI,MLOps,False,True,Vertex AI
+5904203080,Dashboards,BI & visualisation,False,True,dashboards
+5904203080,Data quality,business & ways of working,False,True,data quality
+5904203080,Power BI,BI & visualisation,False,True,Power BI
+5904203080,Stakeholder management,business & ways of working,False,True,stakeholder
+5904269628,Dashboards,BI & visualisation,False,True,dashboards
+5904269628,Power BI,BI & visualisation,False,True,Power BI
+5904274840,Machine learning,machine learning,True,True,Machine Learning
+5904300971,Data quality,business & ways of working,False,True,data quality
+5904300971,ETL / ELT,data engineering,False,True,ETL
+5904300971,Stakeholder management,business & ways of working,False,True,stakeholders
+5904417589,Data pipelines,data engineering,False,True,data pipeline
+5905433378,Data pipelines,data engineering,False,True,Data Pipelines
+5905433378,Machine learning,machine learning,True,True,Machine Learning
+5905809412,Forecasting / time series,machine learning,False,True,Time-series
+5905809412,Statistics,statistics & methods,False,True,statistics
+5905809520,Salesforce,business & ways of working,True,True,Salesforce
+5906015686,Machine learning,machine learning,False,True,machine learning
+5906015686,Statistics,statistics & methods,False,True,statistical
+5906028301,SAP,business & ways of working,True,False,SAP
+5906239776,Databricks,data engineering,False,True,Databricks
+5906239798,Databricks,data engineering,False,True,Databricks
+5906239897,Databricks,data engineering,False,True,Databricks
+5906253142,Data pipelines,data engineering,False,True,data pipelines
+5906270637,APIs,cloud & devops,False,True,APIs
+5906270637,AWS,cloud & devops,False,True,AWS
+5906270637,LLMs,generative AI,False,True,LLMs
+5906270637,LangChain / LangGraph,generative AI,False,True,LangChain
+5906270637,OpenAI API,generative AI,False,True,OpenAI
+5906270637,Python,programming,False,True,Python
+5906270988,Stakeholder management,business & ways of working,False,True,stakeholders
+5906271774,Data warehousing,data engineering,False,True,Data warehousing
+5906271774,ETL / ELT,data engineering,False,True,ETL
+5906271774,NoSQL,databases & warehouses,False,True,NoSQL
+5906271774,Python,programming,False,True,Python
+5906271774,SQL,programming,False,True,SQL
+5906272471,Azure,cloud & devops,False,True,Azure
+5906272471,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5906272890,Dashboards,BI & visualisation,False,True,dashboards
+5906272951,Data pipelines,data engineering,False,True,Data Pipelines
+5906272951,Machine learning,machine learning,True,True,Machine Learning
+5906273765,AWS,cloud & devops,False,True,AWS
+5906273765,Databricks,data engineering,False,True,Databricks
+5906273765,Machine learning,machine learning,True,True,Machine Learning
+5906273765,Python,programming,False,True,Python
+5906312062,Data governance,business & ways of working,False,True,data governance
+5906312062,Data quality,business & ways of working,False,True,data quality
+5906447623,Machine learning,machine learning,False,True,machine learning
+5906704700,Data pipelines,data engineering,False,True,data pipelines
+5906705806,Communication,business & ways of working,False,True,communicate
+5906705806,Computer vision,machine learning,True,False,Computer Vision
+5906705806,Machine learning,machine learning,True,False,Machine Learning
+5906705866,Communication,business & ways of working,False,True,communicate
+5906705866,Computer vision,machine learning,True,False,Computer Vision
+5906705866,Machine learning,machine learning,True,False,Machine Learning
+5907316350,Forecasting / time series,machine learning,False,True,forecasting
+5907404675,Stakeholder management,business & ways of working,False,True,stakeholder
+5907658309,Generative AI,generative AI,False,True,generative AI
+5907658309,Machine learning,machine learning,True,True,machine learning
+5907658724,Agile,business & ways of working,False,True,agile
+5907658777,Machine learning,machine learning,False,True,machine learning
+5907658777,Statistics,statistics & methods,False,True,statistical
+5907659248,Machine learning,machine learning,True,False,Machine Learning
+5907660617,Communication,business & ways of working,False,True,communicate
+5907660617,Computer vision,machine learning,True,False,Computer Vision
+5907660617,Machine learning,machine learning,True,False,Machine Learning
+5907666277,Machine learning,machine learning,True,False,Machine Learning
+5907672270,Machine learning,machine learning,False,True,Machine Learning
+5907673214,AI agents,generative AI,True,False,Agentic
+5907673214,Machine learning,machine learning,True,False,Machine Learning
+5907676267,Machine learning,machine learning,True,False,Machine Learning
+5907677254,Machine learning,machine learning,True,False,Machine Learning
+5907678387,Stakeholder management,business & ways of working,False,True,stakeholders
+5907678670,Machine learning,machine learning,True,False,Machine Learning
+5907681552,Machine learning,machine learning,True,True,Machine Learning
+5907981576,Machine learning,machine learning,True,False,Machine Learning
+5908186635,APIs,cloud & devops,False,True,API
+5908186635,AWS,cloud & devops,False,True,AWS
+5908186635,Data pipelines,data engineering,False,True,data pipelines
+5908186635,Python,programming,True,True,Python
+5908319260,Databricks,data engineering,False,True,Databricks
+5908319260,Python,programming,False,True,Python
+5908319260,Spark,data engineering,False,True,Spark
+5908447612,Machine learning,machine learning,False,True,machine learning
+5908447612,Stakeholder management,business & ways of working,False,True,stakeholders
+5908563086,Python,programming,True,False,Python
+5908563086,SQL,programming,True,False,SQL
+5908570693,AI agents,generative AI,False,True,Agentic
+5908570693,Generative AI,generative AI,False,True,Generative AI
+5908570693,Machine learning,machine learning,True,True,Machine Learning
+5908576251,Azure,cloud & devops,False,True,Azure
+5908576251,Azure Data Factory,data engineering,False,True,ADF
+5908576251,Data modelling,data engineering,False,True,Data Modelling
+5908576251,ETL / ELT,data engineering,False,True,ETL
+5908576251,Microsoft Fabric,databases & warehouses,False,True,MS Fabric
+5908576251,SQL,programming,False,True,SQL
+5908576251,SQL Server,databases & warehouses,False,True,SQL Server
+5908576251,SSIS,data engineering,False,True,SSIS
+5908625499,Azure,cloud & devops,False,True,Azure
+5908625499,Azure Data Factory,data engineering,False,True,ADF
+5908625499,Data modelling,data engineering,False,True,Data Modelling
+5908625499,ETL / ELT,data engineering,False,True,ETL
+5908625499,Microsoft Fabric,databases & warehouses,False,True,MS Fabric
+5908625499,SQL,programming,False,True,SQL
+5908625499,SQL Server,databases & warehouses,False,True,SQL Server
+5908625499,SSIS,data engineering,False,True,SSIS
+5908625520,Data visualisation,BI & visualisation,False,True,Data Visualisation
+5908625520,Power BI,BI & visualisation,False,True,Power BI
+5908625520,Python,programming,False,True,Python
+5908625520,SQL,programming,False,True,SQL
+5908625520,Statistics,statistics & methods,False,True,Statistical
+5908625520,Tableau,BI & visualisation,False,True,Tableau
+5908625529,Data visualisation,BI & visualisation,False,True,Data Visualisation
+5908625529,Power BI,BI & visualisation,False,True,Power BI
+5908625529,Python,programming,False,True,Python
+5908625529,SQL,programming,False,True,SQL
+5908625529,Statistics,statistics & methods,False,True,Statistical
+5908625529,Tableau,BI & visualisation,False,True,Tableau
+5908625600,Data visualisation,BI & visualisation,False,True,Data Visualisation
+5908625600,Power BI,BI & visualisation,False,True,Power BI
+5908625600,Python,programming,False,True,Python
+5908625600,SQL,programming,False,True,SQL
+5908625600,Statistics,statistics & methods,False,True,Statistical
+5908625600,Tableau,BI & visualisation,False,True,Tableau
+5909134046,Dashboards,BI & visualisation,False,True,dashboard
+5909414549,APIs,cloud & devops,False,True,API
+5909414549,BigQuery,databases & warehouses,False,True,BigQuery
+5909683607,Machine learning,machine learning,False,True,machine learning
+5909692168,Master data,business & ways of working,True,False,Master Data
+5909694533,AI agents,generative AI,True,True,agentic
+5909697954,Machine learning,machine learning,True,True,Machine Learning
+5909698441,Stakeholder management,business & ways of working,False,True,stakeholders
+5909872451,Dashboards,BI & visualisation,False,True,dashboard
+5910077041,ETL / ELT,data engineering,False,True,ETL
+5910077041,Python,programming,False,True,Python
+5910077041,SQL,programming,False,True,SQL
+5911248686,Machine learning,machine learning,True,True,Machine Learning
+5911249454,Machine learning,machine learning,True,True,Machine Learning
+5911250044,Machine learning,machine learning,True,False,Machine Learning
+5911260235,Machine learning,machine learning,True,False,Machine Learning
+5912349511,Databricks,data engineering,False,True,Databricks
+5912349511,Python,programming,False,True,Python
+5912349511,SQL,programming,False,True,SQL
+5912349511,Spark,data engineering,False,True,Spark
+5912349525,Stakeholder management,business & ways of working,False,True,stakeholders
+5912349529,Data pipelines,data engineering,False,True,data pipeline
+5912349529,Data quality,business & ways of working,False,True,data quality
+5912349529,Snowflake,databases & warehouses,False,True,Snowflake
+5912576151,GCP,cloud & devops,True,True,GCP
+5912585252,Machine learning,machine learning,True,False,Machine Learning
+5912667581,Machine learning,machine learning,True,False,Machine Learning
+5912851559,Data pipelines,data engineering,False,True,data pipelines
+5912851580,Stakeholder management,business & ways of working,False,True,stakeholders
+5912851584,Agile,business & ways of working,False,True,Agile
+5912851584,Data visualisation,BI & visualisation,False,True,data visualisation
+5912851746,Kubernetes,cloud & devops,False,True,Kubernetes
+5912851746,MLOps,MLOps,False,True,MLOps
+5912851746,Machine learning,machine learning,False,True,machine learning
+5912851805,Machine learning,machine learning,False,True,machine learning
+5912883483,AWS,cloud & devops,False,True,AWS
+5912883483,Databricks,data engineering,True,True,Databricks
+5912883483,Python,programming,False,True,Python
+5912883483,SQL,programming,False,True,SQL
+5912883483,Spark,data engineering,False,True,PySpark
+5912952111,Data pipelines,data engineering,False,True,data pipelines
+5912975783,Stakeholder management,business & ways of working,False,True,stakeholders
+5913414290,Data pipelines,data engineering,False,True,data pipelines
+5913415222,Generative AI,generative AI,False,True,GenAI
+5913415222,Machine learning,machine learning,False,True,machine learning
+5913415222,Python,programming,False,True,Python
+5913577333,Machine learning,machine learning,True,False,Machine Learning
+5913584743,Machine learning,machine learning,True,False,Machine Learning
+5913654874,Microsoft Fabric,databases & warehouses,True,True,Microsoft Fabric
+5913654874,Stakeholder management,business & ways of working,False,True,stakeholder
+5913655124,AI agents,generative AI,False,True,Agentic
+5913705196,Deep learning,machine learning,False,True,deep learning
+5913705196,Machine learning,machine learning,False,True,machine learning
+5913802627,Data pipelines,data engineering,False,True,data pipelines
+5913845843,Machine learning,machine learning,False,True,machine learning
+5913873859,Microsoft Fabric,databases & warehouses,True,True,Microsoft Fabric
+5913873859,Stakeholder management,business & ways of working,False,True,stakeholder
+5913893802,SQL,programming,False,True,SQL
+5913893802,SQL Server,databases & warehouses,False,True,SQL Server
+5913893933,AI agents,generative AI,False,True,agentic
+5913893933,LLMs,generative AI,False,True,LLMs
+5913893933,Machine learning,machine learning,False,True,Machine Learning
+5913894012,Generative AI,generative AI,False,True,GenAI
+5913894012,LLMs,generative AI,False,True,LLMs
+5913962058,AI agents,generative AI,False,True,agentic
+5913962058,LLMs,generative AI,False,True,LLMs
+5913962058,Machine learning,machine learning,False,True,Machine Learning
+5913997880,Machine learning,machine learning,True,True,Machine Learning
+5914206359,AWS,cloud & devops,False,True,AWS
+5914206359,Databricks,data engineering,False,True,Databricks
+5914227850,Dashboards,BI & visualisation,False,True,dashboard
+5914227850,Power BI,BI & visualisation,False,True,Power BI
+5914227850,Stakeholder management,business & ways of working,False,True,stakeholder
+5914234035,Stakeholder management,business & ways of working,False,True,stakeholders
+5914234227,Data visualisation,BI & visualisation,False,True,data visualisation
+5914234227,Power BI,BI & visualisation,False,True,Power BI
+5914234227,SQL,programming,False,True,SQL
+5914268277,Communication,business & ways of working,False,True,communicate
+5914268277,Dashboards,BI & visualisation,False,True,dashboards
+5914268277,Data quality,business & ways of working,False,True,data quality
+5914268277,Stakeholder management,business & ways of working,False,True,stakeholders
+5914282121,Generative AI,generative AI,False,True,GenAI
+5914282121,LLMs,generative AI,False,True,LLMs
+5915498838,Machine learning,machine learning,False,True,machine learning
+5915632395,Data visualisation,BI & visualisation,False,True,data visualisation
+5915632395,Power BI,BI & visualisation,False,True,Power BI
+5915632395,SQL,programming,False,True,SQL
+5916568836,Machine learning,machine learning,True,False,Machine Learning
+5916581093,Statistics,statistics & methods,False,True,statistical
+5916582735,Salesforce,business & ways of working,False,True,Salesforce
+5916803617,APIs,cloud & devops,False,True,APIs
+5916803617,Data pipelines,data engineering,False,True,data pipelines
+5916803617,ETL / ELT,data engineering,False,True,ETL
+5916803617,Machine learning,machine learning,False,True,machine learning
+5916803637,Machine learning,machine learning,False,True,machine learning
+5916803637,Statistics,statistics & methods,False,True,statistical
+5916803684,Machine learning,machine learning,False,True,machine learning
+5916803684,Statistics,statistics & methods,False,True,statistics
+5916803698,Data pipelines,data engineering,False,True,data pipelines
+5916803747,AWS,cloud & devops,False,True,AWS
+5916803747,Airflow,data engineering,False,True,Airflow
+5916803747,Data warehousing,data engineering,False,True,data warehousing
+5916803747,SQL,programming,False,True,SQL
+5916803747,Snowflake,databases & warehouses,True,True,Snowflake
+5917037584,Data pipelines,data engineering,False,True,data pipelines
+5917127584,AI agents,generative AI,False,True,agentic
+5917127584,AWS,cloud & devops,False,True,AWS
+5917127584,Azure,cloud & devops,False,True,Azure
+5917127584,GCP,cloud & devops,False,True,GCP
+5917127584,Java,programming,False,True,Java
+5917127584,JavaScript / TypeScript,programming,False,True,TypeScript
+5917127584,LLMs,generative AI,False,True,LLM
+5917127584,Python,programming,False,True,Python
+5917505611,Data modelling,data engineering,False,True,data modelling
+5917546200,Data visualisation,BI & visualisation,False,True,Visualisation
+5917583310,Agile,business & ways of working,False,True,agile
+5917595868,Python,programming,True,False,Python
+5917680676,Machine learning,machine learning,False,True,machine learning
+5917680676,Statistics,statistics & methods,False,True,statistical
+5917761330,AI agents,generative AI,False,True,Agentic
+5917761330,Generative AI,generative AI,False,True,GenAI
+5917805092,AI agents,generative AI,False,True,Agentic
+5917805092,Generative AI,generative AI,False,True,GenAI
+5918518864,AI agents,generative AI,False,True,Agentic
+5918518864,Generative AI,generative AI,False,True,GenAI
+5918590270,Machine learning,machine learning,True,False,Machine Learning
+5918680657,Data lake / lakehouse,data engineering,False,True,data lake
+5918680657,Data pipelines,data engineering,False,True,data pipelines
+5918680657,Data quality,business & ways of working,False,True,data quality
+5918687347,Forecasting / time series,machine learning,True,False,Forecasting
+5918692811,Machine learning,machine learning,True,False,Machine Learning
+5918695487,Azure,cloud & devops,False,True,Azure
+5918695487,Machine learning,machine learning,False,True,Machine Learning
+5918695487,OpenAI API,generative AI,False,True,OpenAI
+5918698149,Forecasting / time series,machine learning,False,True,forecasting
+5918701338,Machine learning,machine learning,False,True,machine learning
+5918704043,MLOps,MLOps,True,False,MLOps
+5918823125,A/B testing,statistics & methods,False,True,experimentation
+5918916245,Data pipelines,data engineering,False,True,data pipelines
+5918916245,ETL / ELT,data engineering,False,True,ETL
+5918916245,Machine learning,machine learning,False,True,machine learning
+5919055067,Azure,cloud & devops,True,True,Azure
+5919055067,Databricks,data engineering,False,True,Databricks
+5919055067,Snowflake,databases & warehouses,False,True,Snowflake
+5919268049,MLOps,MLOps,True,True,MLOps
+5919268049,Machine learning,machine learning,False,True,machine learning
+5919268049,Recommender systems,machine learning,True,True,Recommendation Systems
+5919551553,Dashboards,BI & visualisation,False,True,dashboard
+5919581760,Computer vision,machine learning,True,True,Computer Vision
+5919584027,Machine learning,machine learning,False,True,machine learning
+5919585458,Data lake / lakehouse,data engineering,False,True,Data Lake
+5919585458,Data warehousing,data engineering,False,True,Data Warehouse
+5919626951,Data governance,business & ways of working,True,False,Data Governance
+5919650858,Data governance,business & ways of working,True,False,Data Governance
+5919651874,Data lake / lakehouse,data engineering,False,True,Data Lake
+5919651874,Data warehousing,data engineering,False,True,data warehouse
+5919674619,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5919853981,SAP,business & ways of working,True,False,SAP
+5920311800,Data lake / lakehouse,data engineering,False,True,data lake
+5920312950,Machine learning,machine learning,False,True,machine learning
+5920317260,Stakeholder management,business & ways of working,False,True,stakeholder
+5920320550,Machine learning,machine learning,True,False,Machine Learning
+5920322507,Kubernetes,cloud & devops,False,True,Kubernetes
+5920323462,Stakeholder management,business & ways of working,False,True,stakeholders
+5920324619,AI agents,generative AI,False,True,agentic
+5920324619,Communication,business & ways of working,False,True,communicate
+5920324619,Generative AI,generative AI,False,True,generative AI
+5920324619,Machine learning,machine learning,False,True,machine learning
+5920324619,NLP,machine learning,False,True,natural language processing
+5920324619,Statistics,statistics & methods,False,True,statistical
+5920327466,GCP,cloud & devops,False,True,Google Cloud
+5920327476,Data warehousing,data engineering,False,True,data warehousing
+5920327476,Machine learning,machine learning,True,False,Machine Learning
+5920511693,Computer vision,machine learning,False,True,computer vision
+5920557154,MLOps,MLOps,True,True,MLOps
+5920557154,Machine learning,machine learning,False,True,Machine Learning
+5920557154,Recommender systems,machine learning,False,True,recommendation systems
+5920603870,Azure,cloud & devops,True,True,Azure
+5920603870,Azure Synapse,databases & warehouses,False,True,Synapse
+5920603870,Data pipelines,data engineering,False,True,data pipelines
+5920603870,Databricks,data engineering,False,True,Databricks
+5920604880,Azure,cloud & devops,False,True,Azure
+5920604880,SQL,programming,False,True,SQL
+5920647732,Azure,cloud & devops,True,True,Azure
+5920647732,Azure Synapse,databases & warehouses,False,True,Synapse
+5920647732,Data pipelines,data engineering,False,True,data pipelines
+5920647732,Databricks,data engineering,False,True,Databricks
+5920647734,Data pipelines,data engineering,False,True,data pipelines
+5920691225,Data pipelines,data engineering,False,True,data pipelines
+5921023260,Stakeholder management,business & ways of working,False,True,stakeholders
+5921061921,Azure,cloud & devops,False,True,Azure
+5921061921,Generative AI,generative AI,False,True,Generative AI
+5921061921,Machine learning,machine learning,False,True,Machine Learning
+5921061934,Azure,cloud & devops,False,True,Azure
+5921061934,SQL,programming,False,True,SQL
+5921100941,Stakeholder management,business & ways of working,False,True,stakeholders
+5921113522,GCP,cloud & devops,False,True,GCP
+5921113522,LLMs,generative AI,False,True,LLM
+5921113522,Machine learning,machine learning,False,True,machine learning
+5921113522,RAG,generative AI,False,True,RAG
+5921113573,GCP,cloud & devops,False,True,Google Cloud
+5921113573,Generative AI,generative AI,False,True,Generative AI
+5921113573,Machine learning,machine learning,True,True,Machine Learning
+5921113573,PyTorch,machine learning,False,True,PyTorch
+5921113573,Python,programming,False,True,Python
+5921171545,AI agents,generative AI,True,True,Agentic
+5921171545,Generative AI,generative AI,False,True,Generative AI
+5921171545,Machine learning,machine learning,False,True,Machine Learning
+5921251953,APIs,cloud & devops,False,True,APIs
+5921251953,AWS,cloud & devops,False,True,AWS
+5921251953,Data lake / lakehouse,data engineering,False,True,data lake
+5921251953,Python,programming,False,True,Python
+5921403845,Stakeholder management,business & ways of working,False,True,stakeholder
+5921505060,A/B testing,statistics & methods,False,True,A/B testing
+5921505060,Deep learning,machine learning,False,True,deep learning
+5921505060,Generative AI,generative AI,False,True,Generative AI
+5921505060,LLMs,generative AI,False,True,LLM
+5921505060,Machine learning,machine learning,False,True,machine learning
+5921505060,RAG,generative AI,False,True,Retrieval-Augmented Generation
+5921505060,Stakeholder management,business & ways of working,False,True,stakeholders
+5921886372,Machine learning,machine learning,True,True,machine learning
+5923010317,AI agents,generative AI,True,False,Agentic
+5923010317,Machine learning,machine learning,False,True,Machine Learning
+5923010317,Python,programming,True,False,Python
+5923016396,Machine learning,machine learning,True,True,Machine Learning
+5923028074,Machine learning,machine learning,True,False,Machine Learning
+5923028623,Machine learning,machine learning,True,False,Machine Learning
+5923036909,AI agents,generative AI,True,False,Agentic
+5923623122,Forecasting / time series,machine learning,False,True,forecasting
+5923626043,Forecasting / time series,machine learning,False,True,forecasting
+5924049234,Generative AI,generative AI,False,True,generative AI
+5924070079,A/B testing,statistics & methods,False,True,experimentation
+5924259661,Power BI,BI & visualisation,False,True,Power BI
+5924259661,SQL,programming,False,True,SQL
+5924259669,Azure,cloud & devops,True,True,Azure
+5924259669,Data pipelines,data engineering,False,True,data pipelines
+5924273437,LLMs,generative AI,True,False,LLM
+5924273437,Machine learning,machine learning,True,False,Machine Learning
+5924273437,Python,programming,True,False,Python
+5924279007,Azure,cloud & devops,True,True,Azure
+5924279007,Data pipelines,data engineering,False,True,data pipelines
+5924279088,Azure,cloud & devops,False,True,Azure
+5924279088,Data governance,business & ways of working,False,True,data governance
+5924279088,Data quality,business & ways of working,False,True,data quality
+5924279088,Power BI,BI & visualisation,False,True,Power BI
+5924313794,A/B testing,statistics & methods,False,True,experimentation
+5924313794,Machine learning,machine learning,False,True,machine learning
+5924561261,APIs,cloud & devops,False,True,APIs
+5924561261,Azure,cloud & devops,False,True,Azure
+5924561261,Data lake / lakehouse,data engineering,False,True,Delta Lake
+5924561261,Databricks,data engineering,False,True,Databricks
+5924561261,Python,programming,False,True,Python
+5924561316,AWS,cloud & devops,False,True,AWS
+5924561316,SQL,programming,False,True,SQL
+5924561316,Snowflake,databases & warehouses,False,True,Snowflake
+5924561349,Databricks,data engineering,False,True,Databricks
+5924565944,Dashboards,BI & visualisation,False,True,dashboard
+5924565944,Stakeholder management,business & ways of working,False,True,stakeholders
+5924882949,Machine learning,machine learning,True,True,Machine Learning
+5924885657,APIs,cloud & devops,False,True,APIs
+5924885657,Azure,cloud & devops,False,True,Azure
+5924885657,Data lake / lakehouse,data engineering,False,True,Delta Lake
+5924885657,Databricks,data engineering,False,True,Databricks
+5924885657,Python,programming,False,True,Python
+5924889373,APIs,cloud & devops,False,True,APIs
+5924889373,Computer vision,machine learning,False,True,computer vision
+5924889373,Go,programming,False,True,Golang
+5924889373,JavaScript / TypeScript,programming,False,True,TypeScript
+5924889373,Machine learning,machine learning,False,True,machine learning
+5924889373,Python,programming,False,True,Python
+5924956894,Data warehousing,data engineering,False,True,Data Warehouse
+5924956894,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5924956894,SQL,programming,False,True,SQL
+5924956894,SQL Server,databases & warehouses,False,True,SQL Server
+5924956894,SSIS,data engineering,False,True,SSIS
+5924956894,SSRS,BI & visualisation,False,True,SSRS
+5925069036,Machine learning,machine learning,False,True,machine learning
+5925511345,Machine learning,machine learning,True,True,machine learning
+5925516778,Prompt engineering,generative AI,False,True,prompting
+5925543216,Stakeholder management,business & ways of working,False,True,stakeholders
+5925546663,Statistics,statistics & methods,False,True,statistical
+5925547749,A/B testing,statistics & methods,False,True,experimentation
+5925551503,Communication,business & ways of working,False,True,communication skills
+5925583043,Machine learning,machine learning,True,True,Machine Learning
+5925593756,Python,programming,False,True,Python
+5925593756,SQL,programming,False,True,SQL
+5925826575,Airflow,data engineering,False,True,Airflow
+5925826575,Azure,cloud & devops,False,True,Azure
+5925826575,Kubernetes,cloud & devops,False,True,Kubernetes
+5925826575,Python,programming,False,True,Python
+5925826575,Spark,data engineering,False,True,Spark
+5925826577,AWS,cloud & devops,False,True,AWS
+5925826577,Python,programming,False,True,Python
+5925826577,SQL,programming,False,True,SQL
+5925833415,AWS,cloud & devops,False,True,AWS
+5925833415,Python,programming,False,True,Python
+5925833415,SQL,programming,False,True,SQL
+5925888071,AWS,cloud & devops,False,True,AWS
+5925888071,Python,programming,False,True,Python
+5925888071,SQL,programming,False,True,SQL
+5926042099,Machine learning,machine learning,True,True,Machine Learning
+5926048156,Python,programming,False,True,Python
+5926048156,SQL,programming,False,True,SQL
+5926057769,Airflow,data engineering,False,True,Airflow
+5926057769,Azure,cloud & devops,False,True,Azure
+5926057769,Kubernetes,cloud & devops,False,True,Kubernetes
+5926057769,Python,programming,False,True,Python
+5926057769,Spark,data engineering,False,True,Spark
+5926273567,LLMs,generative AI,True,True,LLM
+5926273567,Machine learning,machine learning,False,True,machine learning
+5926278892,Machine learning,machine learning,True,True,Machine Learning
+5926278911,Agile,business & ways of working,False,True,agile
+5926278911,Databricks,data engineering,True,False,Databricks
+5926281305,Data pipelines,data engineering,False,True,data pipelines
+5926281595,LLMs,generative AI,True,True,LLM
+5926281595,Machine learning,machine learning,False,True,machine learning
+5926281617,Snowflake,databases & warehouses,True,True,Snowflake
+5926514333,MongoDB,databases & warehouses,False,True,MongoDB
+5926514333,Oracle,databases & warehouses,False,True,Oracle
+5926514333,PostgreSQL,databases & warehouses,False,True,PostgreSQL
+5926518148,Stakeholder management,business & ways of working,False,True,stakeholders
+5926646632,Python,programming,False,True,Python
+5926646632,Snowflake,databases & warehouses,False,True,Snowflake
+5926646632,dbt,data engineering,False,True,dbt
+5927096965,AI agents,generative AI,False,True,AI agents
+5927128430,Computer vision,machine learning,True,True,Computer Vision
+5927144444,DAX,BI & visualisation,False,True,DAX
+5927144444,Machine learning,machine learning,True,True,Machine Learning
+5927165953,Stakeholder management,business & ways of working,False,True,stakeholders
+5927168835,Machine learning,machine learning,True,True,Machine Learning
+5927177758,Snowflake,databases & warehouses,False,True,Snowflake
+5927309818,Machine learning,machine learning,True,True,MACHINE LEARNING
+5927309819,Machine learning,machine learning,True,True,MACHINE LEARNING
+5927580213,Generative AI,generative AI,True,False,GenAI
+5927809605,Generative AI,generative AI,False,True,generative AI
+5927809735,Generative AI,generative AI,False,True,generative AI
+5927809993,Computer vision,machine learning,False,True,Computer Vision
+5927809993,Generative AI,generative AI,False,True,generative AI
+5927810185,Generative AI,generative AI,False,True,generative AI
+5927951800,Machine learning,machine learning,False,True,machine learning
+5927951800,Statistics,statistics & methods,False,True,statistics
+5927958524,Data pipelines,data engineering,False,True,data pipelines
+5928017631,Machine learning,machine learning,False,True,machine learning
+5928017631,Statistics,statistics & methods,False,True,statistics
+5928027136,Azure,cloud & devops,False,True,Azure
+5928027136,Databricks,data engineering,False,True,Databricks
+5928030745,Data pipelines,data engineering,False,True,data pipelines
+5928030953,Data warehousing,data engineering,False,True,Data Warehousing
+5928030953,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5928030953,SQL,programming,False,True,SQL
+5928030953,SQL Server,databases & warehouses,False,True,SQL Server
+5928030953,SSIS,data engineering,False,True,SSIS
+5928341439,Azure,cloud & devops,False,True,Azure
+5928341439,ETL / ELT,data engineering,False,True,ETL
+5928341439,PostgreSQL,databases & warehouses,False,True,PostgreSQL
+5928524004,Databricks,data engineering,False,True,Databricks
+5928524004,Python,programming,False,True,Python
+5928691457,Machine learning,machine learning,True,True,machine learning
+5928691457,Statistics,statistics & methods,False,True,statistical
+5928706819,Computer vision,machine learning,False,True,computer vision
+5928709385,Stakeholder management,business & ways of working,False,True,stakeholders
+5928710834,Generative AI,generative AI,True,True,GenAI
+5928712763,Dashboards,BI & visualisation,False,True,dashboards
+5928720732,APIs,cloud & devops,False,True,APIs
+5928720732,Go,programming,False,True,Golang
+5928720732,Kubernetes,cloud & devops,False,True,Kubernetes
+5928720732,LLMs,generative AI,False,True,LLMs
+5928720732,Machine learning,machine learning,False,True,machine learning
+5928784235,AWS,cloud & devops,False,True,AWS
+5928784235,Azure,cloud & devops,False,True,Azure
+5928784235,GCP,cloud & devops,False,True,GCP
+5928784235,Machine learning,machine learning,False,True,machine learning
+5928784235,Snowflake,databases & warehouses,True,True,Snowflake
+5928784381,Dashboards,BI & visualisation,False,True,dashboard
+5928784381,Data pipelines,data engineering,False,True,data pipelines
+5928784381,Data warehousing,data engineering,False,True,data warehouse
+5928817116,Machine learning,machine learning,False,True,machine-learning
+5928817116,Python,programming,False,True,Python
+5928817116,SQL,programming,False,True,SQL
+5928817116,Statistics,statistics & methods,False,True,statistical
+5929001879,Machine learning,machine learning,False,True,machine learning
+5929078916,Azure,cloud & devops,False,True,Azure
+5929078916,Databricks,data engineering,False,True,Databricks
+5929078916,Python,programming,False,True,Python
+5929081323,Dashboards,BI & visualisation,False,True,Dashboard
+5929090051,Generative AI,generative AI,False,True,Generative AI
+5929123146,Generative AI,generative AI,False,True,Generative AI
+5929268096,GCP,cloud & devops,True,True,GCP
+5929351083,Machine learning,machine learning,False,True,Machine Learning
+5929351083,Spark,data engineering,False,True,PySpark
+5929375282,Data pipelines,data engineering,False,True,data pipelines
+5929507852,Azure,cloud & devops,False,True,Azure
+5929700873,Machine learning,machine learning,False,True,machine learning
+5930029536,Machine learning,machine learning,False,True,machine learning
+5930186712,Machine learning,machine learning,True,False,Machine Learning
+5930237888,Machine learning,machine learning,True,True,Machine Learning
+5930238369,R,programming,False,True,R
+5930274754,Generative AI,generative AI,False,True,Generative AI
+5930274754,Machine learning,machine learning,False,True,machine learning
+5930276899,Machine learning,machine learning,True,False,Machine Learning
+5930285937,Python,programming,True,False,Python
+5930287292,Machine learning,machine learning,True,False,Machine Learning
+5930350918,Dashboards,BI & visualisation,False,True,dashboards
+5930350918,Excel,BI & visualisation,False,True,Excel
+5930351060,Snowflake,databases & warehouses,False,True,Snowflake
+5930351088,Snowflake,databases & warehouses,False,True,Snowflake
+5930394588,Data pipelines,data engineering,False,True,data pipelines
+5930394588,Stakeholder management,business & ways of working,False,True,stakeholders
+5930396095,AWS,cloud & devops,False,True,AWS
+5930396095,Azure,cloud & devops,False,True,Azure
+5930396095,Machine learning,machine learning,False,True,Machine Learning
+5930396095,NLP,machine learning,False,True,NLP
+5930396095,Python,programming,False,True,Python
+5930396099,Data pipelines,data engineering,False,True,Data Pipelines
+5930396099,ETL / ELT,data engineering,False,True,ETL
+5930396099,NoSQL,databases & warehouses,False,True,NoSQL
+5930396099,SQL,programming,False,True,SQL
+5930396100,Generative AI,generative AI,False,True,GenAI
+5930396100,Machine learning,machine learning,False,True,machine learning
+5930396100,NLP,machine learning,False,True,NLP
+5930396109,Data pipelines,data engineering,False,True,Data Pipelines
+5930396109,ETL / ELT,data engineering,False,True,ETL
+5930396109,NoSQL,databases & warehouses,False,True,NoSQL
+5930396109,SQL,programming,False,True,SQL
+5930687521,Stakeholder management,business & ways of working,False,True,stakeholder
+5930697580,Azure,cloud & devops,False,True,Azure
+5930697580,Data pipelines,data engineering,False,True,data pipelines
+5930698603,Data lake / lakehouse,data engineering,False,True,data lake
+5930711723,Dashboards,BI & visualisation,False,True,dashboards
+5930711723,Stakeholder management,business & ways of working,False,True,stakeholders
+5930712033,Data pipelines,data engineering,False,True,data pipelines
+5930755675,Power BI,BI & visualisation,False,True,Power BI
+5930755675,SQL,programming,False,True,SQL
+5930979438,Data pipelines,data engineering,False,True,data pipelines
+5931028963,MLOps,MLOps,True,True,MLOps
+5931104413,Stakeholder management,business & ways of working,False,True,stakeholders
+5931134622,A/B testing,statistics & methods,False,True,experimentation
+5931134622,LLMs,generative AI,False,True,Large Language Models
+5931134622,Machine learning,machine learning,True,True,Machine Learning
+5931136733,Machine learning,machine learning,False,True,machine learning
+5931317041,Excel,BI & visualisation,False,True,Excel
+5931317041,Power BI,BI & visualisation,False,True,Power BI
+5931393697,Dashboards,BI & visualisation,False,True,dashboards
+5931444588,AI agents,generative AI,False,True,AI agents
+5931444975,Stakeholder management,business & ways of working,False,True,stakeholders
+5931476421,Python,programming,True,False,Python
+5931476421,SQL,programming,True,False,SQL
+5931623914,APIs,cloud & devops,False,True,APIs
+5931623914,AWS,cloud & devops,True,True,AWS
+5931623914,Dashboards,BI & visualisation,False,True,dashboards
+5931623914,Generative AI,generative AI,False,True,generative AI
+5931623914,Machine learning,machine learning,False,True,machine learning
+5931859487,AI agents,generative AI,False,True,agentic
+5931899763,Azure,cloud & devops,False,True,Azure
+5931899763,Data governance,business & ways of working,False,True,Data Governance
+5931899763,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5931903903,LLMs,generative AI,True,True,LLMs
+5931903903,Machine learning,machine learning,True,True,Machine Learning
+5932544626,Azure,cloud & devops,False,True,Azure
+5932544626,ETL / ELT,data engineering,False,True,ETL
+5933088906,Machine learning,machine learning,True,False,Machine Learning
+5933088906,Prompt engineering,generative AI,False,True,prompting
+5933095818,Machine learning,machine learning,False,True,machine learning
+5933095818,NLP,machine learning,False,True,natural language processing
+5933096773,Data quality,business & ways of working,False,True,data quality
+5933096773,Stakeholder management,business & ways of working,False,True,stakeholders
+5933108619,Machine learning,machine learning,False,True,Machine Learning
+5933118564,Azure Synapse,databases & warehouses,False,True,Synapse
+5933119660,Machine learning,machine learning,True,False,Machine Learning
+5933121821,AI agents,generative AI,True,False,Agentic
+5933125283,Generative AI,generative AI,False,True,generative AI
+5933938803,AWS,cloud & devops,False,True,AWS
+5933938803,Airflow,data engineering,False,True,Airflow
+5933938803,Data pipelines,data engineering,False,True,Data Pipelines
+5933938803,Git,cloud & devops,False,True,Git
+5933938803,Python,programming,False,True,Python
+5933938803,SQL,programming,False,True,SQL
+5933974206,Machine learning,machine learning,True,True,Machine Learning
+5934219660,Microsoft Fabric,databases & warehouses,True,True,Microsoft Fabric
+5934219836,Snowflake,databases & warehouses,False,True,Snowflake
+5934242400,Machine learning,machine learning,False,True,machine learning
+5934242400,Statistics,statistics & methods,False,True,statistics
+5934248257,Azure,cloud & devops,False,True,Azure
+5934248257,Microsoft Fabric,databases & warehouses,False,True,Fabric
+5934248257,SQL,programming,False,True,SQL
+5934279537,Data quality,business & ways of working,False,True,data quality
+5934279537,Stakeholder management,business & ways of working,False,True,stakeholders
+5934388998,Dashboards,BI & visualisation,False,True,dashboards
+5934432855,A/B testing,statistics & methods,False,True,A/B testing
+5934432855,CI/CD,cloud & devops,False,True,CI/CD
+5934432855,Docker,cloud & devops,False,True,docker
+5934432855,GCP,cloud & devops,False,True,GCP
+5934432855,PyTorch,machine learning,False,True,PyTorch
+5934432855,Python,programming,False,True,Python
+5934432855,RAG,generative AI,False,True,RAG
+5934432855,Vertex AI,MLOps,False,True,Vertex
+5934455278,Data pipelines,data engineering,False,True,data pipeline
+5934455278,Data quality,business & ways of working,False,True,Data Quality
+5934501242,GCP,cloud & devops,True,True,Google Cloud
+5934507814,Machine learning,machine learning,False,True,machine learning
+5934507814,Python,programming,False,True,Python
+5934507814,RAG,generative AI,True,False,RAG
+5934507814,Statistics,statistics & methods,False,True,statistical
+5934548683,MLOps,MLOps,True,True,MLOps
+5934548683,Machine learning,machine learning,False,True,machine learning
+5934548683,NLP,machine learning,False,True,NLP
+5934555769,A/B testing,statistics & methods,False,True,experimentation
+5934555996,A/B testing,statistics & methods,False,True,experimentation
+5934559667,A/B testing,statistics & methods,False,True,experimentation
+5934559740,Data pipelines,data engineering,False,True,data pipelines
+5934591315,AI agents,generative AI,True,True,Agentic
+5934611605,GCP,cloud & devops,True,True,Google Cloud
+5934612667,Machine learning,machine learning,False,True,Machine Learning
+5934618192,Deep learning,machine learning,False,True,deep learning
+5934618192,LLMs,generative AI,False,True,large language model
+5934618192,Machine learning,machine learning,True,True,Machine Learning
+5934618192,Recommender systems,machine learning,False,True,recommendation systems
+5934618652,Master data,business & ways of working,True,True,Master Data
+5934618923,Machine learning,machine learning,False,True,Machine Learning
+5934655942,Data pipelines,data engineering,False,True,data pipelines
+5934655996,Excel,BI & visualisation,False,True,Excel
+5934821646,GCP,cloud & devops,True,True,Google Cloud
+5934823526,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5934823526,Power BI,BI & visualisation,False,True,Power BI
+5934823526,Stakeholder management,business & ways of working,False,True,stakeholders
+5935230138,Agile,business & ways of working,False,True,Agile
+5935261812,A/B testing,statistics & methods,False,True,experimentation
+5935266031,Computer vision,machine learning,False,True,Computer Vision
+5935266031,Machine learning,machine learning,True,True,Machine Learning
+5935432539,Databricks,data engineering,False,True,Databricks
+5935432567,Azure,cloud & devops,False,True,Azure
+5935432567,Data modelling,data engineering,False,True,Dimensional Modelling
+5935432567,Databricks,data engineering,False,True,Databricks
+5935432567,Power BI,BI & visualisation,False,True,PowerBI
+5935449016,AWS,cloud & devops,True,True,AWS
+5935449032,Databricks,data engineering,False,True,Databricks
+5935449298,AWS,cloud & devops,False,True,AWS
+5935449298,Azure,cloud & devops,False,True,Azure
+5935449298,Generative AI,generative AI,False,True,Generative AI
+5935449298,LLMs,generative AI,False,True,LLMs
+5935449298,Machine learning,machine learning,False,True,machine learning
+5935455421,AWS,cloud & devops,False,True,AWS
+5935455421,Azure,cloud & devops,False,True,Azure
+5935455421,Generative AI,generative AI,False,True,Generative AI
+5935455421,LLMs,generative AI,False,True,LLMs
+5935455421,Machine learning,machine learning,False,True,machine learning
+5935476577,Azure,cloud & devops,False,True,Azure
+5935476577,Data pipelines,data engineering,False,True,data pipelines
+5935513537,LLMs,generative AI,False,True,LLM
+5935513537,RAG,generative AI,False,True,RAG
+5935597178,Azure,cloud & devops,False,True,Azure
+5935597178,Azure Data Factory,data engineering,False,True,ADF
+5935597178,Data modelling,data engineering,False,True,Data Modelling
+5935597178,Databricks,data engineering,False,True,Databricks
+5935597178,Microsoft Fabric,databases & warehouses,False,True,MS Fabric
+5935597178,SQL,programming,False,True,SQL
+5935597178,SQL Server,databases & warehouses,False,True,SQL Server
+5935597178,SSIS,data engineering,False,True,SSIS
+5935602145,Generative AI,generative AI,False,True,generative AI
+5935602145,Machine learning,machine learning,False,True,machine learning
+5935602145,NLP,machine learning,False,True,natural language processing
+5935602145,Statistics,statistics & methods,False,True,statistical
+5935685397,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5935773151,Azure,cloud & devops,True,True,Azure
+5935773151,Data pipelines,data engineering,False,True,data pipelines
+5935773151,Data warehousing,data engineering,False,True,data warehousing
+5935773151,Databricks,data engineering,False,True,Databricks
+5935773151,ETL / ELT,data engineering,False,True,ETL
+5935773151,Spark,data engineering,False,True,Spark
+5935794908,Data pipelines,data engineering,False,True,data pipelines
+5935794908,SQL,programming,False,True,SQL
+5935794908,dbt,data engineering,False,True,dbt
+5935856312,Agile,business & ways of working,False,True,Agile
+5935856312,Stakeholder management,business & ways of working,False,True,stakeholder
+5935856816,Machine learning,machine learning,True,True,Machine Learning
+5935856872,AWS,cloud & devops,False,True,AWS
+5935856872,Azure,cloud & devops,False,True,Azure
+5935856872,Generative AI,generative AI,False,True,Generative AI
+5935856872,LLMs,generative AI,False,True,LLMs
+5935856872,Machine learning,machine learning,False,True,machine learning
+5935857148,Data pipelines,data engineering,False,True,data pipelines
+5935857153,Machine learning,machine learning,False,True,machine-learning
+5935857153,Python,programming,False,True,Python
+5935857153,SQL,programming,False,True,SQL
+5935857153,Statistics,statistics & methods,False,True,statistical
+5935857176,Databricks,data engineering,False,True,Databricks
+5935858328,Machine learning,machine learning,True,False,Machine Learning
+5935858370,Dashboards,BI & visualisation,False,True,dashboards
+5935858370,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5935858370,Power BI,BI & visualisation,False,True,Power BI
+5936348748,Stakeholder management,business & ways of working,False,True,stakeholders
+5936348841,Optimisation,statistics & methods,False,True,operations research
+5936368819,Snowflake,databases & warehouses,True,False,Snowflake
+5936473865,Azure,cloud & devops,False,True,Azure
+5936473865,Dashboards,BI & visualisation,False,True,dashboards
+5936473865,R,programming,False,True,R
+5936476975,Machine learning,machine learning,False,True,Machine Learning
+5936490879,Machine learning,machine learning,True,False,Machine Learning
+5936492579,Agile,business & ways of working,False,True,agile
+5936498742,Machine learning,machine learning,False,True,machine learning
+5936498742,Statistics,statistics & methods,False,True,statistical
+5936499399,Machine learning,machine learning,False,True,machine learning
+5936499399,Statistics,statistics & methods,False,True,statistical
+5936499699,Machine learning,machine learning,True,False,Machine Learning
+5936501664,Machine learning,machine learning,False,True,machine learning
+5936501664,Statistics,statistics & methods,False,True,statistical
+5936547126,Machine learning,machine learning,True,True,Machine Learning
+5936547132,Machine learning,machine learning,True,True,Machine Learning
+5936649343,Machine learning,machine learning,True,False,Machine Learning
+5936716802,A/B testing,statistics & methods,False,True,experimentation
+5936721600,Machine learning,machine learning,True,True,Machine Learning
+5936721600,Recommender systems,machine learning,False,True,recommendation systems
+5936721600,Stakeholder management,business & ways of working,False,True,stakeholders
+5936753915,Machine learning,machine learning,True,True,Machine Learning
+5936753959,AI agents,generative AI,False,True,agentic
+5936753959,Machine learning,machine learning,False,True,machine learning
+5936755180,Machine learning,machine learning,False,True,Machine Learning
+5936755413,AWS,cloud & devops,False,True,AWS
+5936756697,Stakeholder management,business & ways of working,False,True,stakeholders
+5936903414,Machine learning,machine learning,True,True,machine learning
+5936918185,Databricks,data engineering,True,True,Databricks
+5936918185,Machine learning,machine learning,False,True,machine learning
+5936919177,Machine learning,machine learning,False,True,machine learning
+5936919377,Data quality,business & ways of working,False,True,data quality
+5936933309,Data pipelines,data engineering,False,True,data pipelines
+5936953528,Agile,business & ways of working,False,True,agile
+5936964234,Data modelling,data engineering,False,True,data modeling
+5936964234,Machine learning,machine learning,False,True,machine learning
+5936964234,Statistics,statistics & methods,False,True,statistics
+5936967595,A/B testing,statistics & methods,False,True,experimentation
+5936967595,Python,programming,False,True,Python
+5936967595,SQL,programming,False,True,SQL
+5936972081,Data pipelines,data engineering,False,True,data pipelines
+5936972081,Python,programming,False,True,Python
+5936972081,SQL,programming,False,True,SQL
+5936972081,Scala,programming,False,True,Scala
+5936972081,Spark,data engineering,False,True,PySpark
+5937000838,AWS,cloud & devops,True,True,AWS
+5937054205,Machine learning,machine learning,False,True,machine learning
+5937056745,Machine learning,machine learning,False,True,Machine Learning
+5937065753,ETL / ELT,data engineering,False,True,ETL
+5937065753,SQL,programming,False,True,SQL
+5937065753,SSIS,data engineering,False,True,SSIS
+5937065943,Data modelling,data engineering,False,True,Data Modelling
+5937065943,Data visualisation,BI & visualisation,False,True,Visualisation
+5937065943,SQL,programming,False,True,SQL
+5937066234,Data pipelines,data engineering,False,True,data pipelines
+5937066665,Machine learning,machine learning,True,True,Machine Learning
+5937069022,Machine learning,machine learning,True,True,Machine Learning
+5937246007,Java,programming,True,False,Java
+5937246007,Machine learning,machine learning,False,True,Machine Learning
+5937246007,Python,programming,True,False,Python
+5937246007,Statistics,statistics & methods,False,True,statistical
+5937259131,Machine learning,machine learning,False,True,Machine Learning
+5937259131,PyTorch,machine learning,True,False,PyTorch
+5937607489,Forecasting / time series,machine learning,True,False,Forecasting
+5937612031,Machine learning,machine learning,True,False,Machine Learning
+5937613822,Generative AI,generative AI,False,True,generative AI
+5937630194,Generative AI,generative AI,False,True,generative AI
+5937645909,Machine learning,machine learning,True,True,Machine Learning
+5937646402,Machine learning,machine learning,False,True,machine learning
+5937646402,Statistics,statistics & methods,False,True,statistical
+5937647594,Machine learning,machine learning,True,False,Machine Learning
+5937651080,Python,programming,False,True,Python
+5937651080,dbt,data engineering,False,True,dbt
+5937651935,Machine learning,machine learning,True,False,Machine Learning
+5937656950,AWS,cloud & devops,False,True,AWS
+5937656950,Data quality,business & ways of working,False,True,data quality
+5937657051,AWS,cloud & devops,False,True,AWS
+5937657051,Data quality,business & ways of working,False,True,data quality
+5937658770,Machine learning,machine learning,False,True,machine learning
+5937658770,Statistics,statistics & methods,False,True,statistical
+5937666574,Forecasting / time series,machine learning,False,True,forecasting
+5937666574,Machine learning,machine learning,False,True,machine learning
+5937666589,Machine learning,machine learning,False,True,machine learning
+5937744363,Python,programming,True,False,Python
+5937754826,Machine learning,machine learning,True,True,Machine Learning
+5937769571,Generative AI,generative AI,False,True,GenAI
+5937769571,Machine learning,machine learning,False,True,machine learning
+5937769571,NLP,machine learning,False,True,NLP
+5937769572,Generative AI,generative AI,False,True,GenAI
+5937769572,Machine learning,machine learning,False,True,machine learning
+5937769572,NLP,machine learning,False,True,NLP
+5937795023,Excel,BI & visualisation,False,True,Microsoft Excel
+5937795023,Power BI,BI & visualisation,False,True,Power BI
+5937795079,AWS,cloud & devops,False,True,AWS
+5937795079,Airflow,data engineering,False,True,Airflow
+5937795079,Azure,cloud & devops,False,True,Azure
+5937795079,BigQuery,databases & warehouses,False,True,BigQuery
+5937795079,CI/CD,cloud & devops,False,True,CI/CD
+5937795079,Data warehousing,data engineering,False,True,data warehouses
+5937795079,Docker,cloud & devops,False,True,Docker
+5937795079,ETL / ELT,data engineering,False,True,ETL
+5937795079,GCP,cloud & devops,False,True,Google Cloud
+5937795079,Git,cloud & devops,False,True,Git
+5937795079,Python,programming,False,True,Python
+5937795079,SQL,programming,False,True,SQL
+5937795079,Terraform,cloud & devops,False,True,Terraform
+5937795079,dbt,data engineering,False,True,DBT
+5937795110,ETL / ELT,data engineering,False,True,ETL
+5937795110,Linux,cloud & devops,False,True,Linux
+5937795110,Oracle,databases & warehouses,False,True,Oracle
+5937795110,SQL,programming,False,True,SQL
+5937795110,SQL Server,databases & warehouses,False,True,SQL Server
+5937795110,Stakeholder management,business & ways of working,False,True,stakeholders
+5937795306,Excel,BI & visualisation,False,True,Excel
+5937795306,Power BI,BI & visualisation,False,True,Power BI
+5937795306,Python,programming,False,True,Python
+5937795306,R,programming,False,True,R
+5937795306,SQL,programming,False,True,SQL
+5937795306,Tableau,BI & visualisation,False,True,Tableau
+5937795351,Agile,business & ways of working,False,True,Agile
+5937795351,CI/CD,cloud & devops,False,True,CI/CD
+5937795351,Data modelling,data engineering,False,True,data modelling
+5937795351,ETL / ELT,data engineering,False,True,ETL
+5937795351,SQL,programming,False,True,SQL
+5937795424,C#,programming,False,True,C#
+5937795424,C++,programming,False,True,C++
+5937795456,AI agents,generative AI,False,True,Agentic
+5937795456,Generative AI,generative AI,False,True,GenAI
+5937795456,Machine learning,machine learning,False,True,machine learning
+5937795456,Stakeholder management,business & ways of working,False,True,stakeholder
+5937795682,Data modelling,data engineering,False,True,data modelling
+5937795682,Data pipelines,data engineering,False,True,data pipelines
+5937795682,Data quality,business & ways of working,False,True,data quality
+5937795682,Databricks,data engineering,False,True,Databricks
+5937795682,Oracle,databases & warehouses,False,True,Oracle
+5937795682,Python,programming,False,True,Python
+5937795682,SQL,programming,False,True,SQL
+5937795806,AI agents,generative AI,True,True,agentic
+5937795806,AWS,cloud & devops,False,True,AWS
+5937795806,LLMs,generative AI,False,True,LLM
+5937795806,LangChain / LangGraph,generative AI,False,True,LangChain
+5937795806,MLOps,MLOps,False,True,MLOps
+5937795806,Machine learning,machine learning,False,True,machine learning
+5937795806,Python,programming,False,True,Python
+5937795806,RAG,generative AI,False,True,Retrieval Augmented Generation
+5937795806,Vector databases,generative AI,False,True,vector databases
+5937795879,Data lake / lakehouse,data engineering,False,True,lakehouse
+5937795879,Data modelling,data engineering,False,True,data modelling
+5937795879,Databricks,data engineering,False,True,Databricks
+5937795879,Python,programming,False,True,Python
+5937795879,SQL,programming,False,True,SQL
+5937795879,Spark,data engineering,False,True,Spark
+5937795879,Stakeholder management,business & ways of working,False,True,stakeholder
+5937796094,Dashboards,BI & visualisation,False,True,dashboards
+5937796094,MySQL,databases & warehouses,False,True,MySQL
+5937796094,Power BI,BI & visualisation,False,True,Power BI
+5937796094,SQL,programming,False,True,SQL
+5937796483,Excel,BI & visualisation,False,True,Excel
+5937796483,Python,programming,False,True,Python
+5937796483,SQL,programming,False,True,SQL
+5937796483,Statistics,statistics & methods,False,True,Statistics
+5937796842,Forecasting / time series,machine learning,False,True,forecasting
+5937796842,Machine learning,machine learning,False,True,machine learning
+5937796988,Communication,business & ways of working,False,True,communicate
+5937796988,Data visualisation,BI & visualisation,False,True,visualisation
+5937796988,Machine learning,machine learning,False,True,machine learning
+5937796988,Python,programming,False,True,Python
+5937796988,R,programming,False,True,R
+5937796988,SQL,programming,False,True,SQL
+5937796988,Stakeholder management,business & ways of working,False,True,stakeholders
+5937796988,Statistics,statistics & methods,False,True,statistical
+5937797489,Azure,cloud & devops,False,True,Azure
+5937797489,Databricks,data engineering,False,True,Databricks
+5937797489,SQL,programming,False,True,SQL
+5937797539,Azure,cloud & devops,False,True,Azure
+5937797539,Data modelling,data engineering,False,True,dimensional modelling
+5937797539,Databricks,data engineering,False,True,Databricks
+5937797539,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5937797539,Power BI,BI & visualisation,False,True,Power BI
+5937797539,SQL,programming,False,True,SQL
+5937797556,AWS,cloud & devops,False,True,AWS
+5937797556,Data lake / lakehouse,data engineering,False,True,Delta Lake
+5937797556,Databricks,data engineering,False,True,Databricks
+5937797556,Hadoop,data engineering,False,True,Hive
+5937797556,Python,programming,False,True,Python
+5937797556,SQL,programming,False,True,SQL
+5937797556,Spark,data engineering,False,True,PySpark
+5937797572,Communication,business & ways of working,False,True,communicate
+5937797572,DAX,BI & visualisation,False,True,DAX
+5937797572,Dashboards,BI & visualisation,False,True,dashboard
+5937797572,Data modelling,data engineering,False,True,data modelling
+5937797572,Data quality,business & ways of working,False,True,data quality
+5937797572,Databricks,data engineering,False,True,Databricks
+5937797572,Power BI,BI & visualisation,False,True,Power BI
+5937797572,SQL,programming,False,True,SQL
+5937797572,Stakeholder management,business & ways of working,False,True,Stakeholder
+5937797655,APIs,cloud & devops,False,True,APIs
+5937797655,AWS,cloud & devops,False,True,AWS
+5937797655,Data pipelines,data engineering,False,True,data pipelines
+5937797655,Fine-tuning,generative AI,False,True,fine-tuning
+5937797655,Hugging Face,generative AI,False,True,Hugging Face
+5937797655,LLMs,generative AI,False,True,LLMs
+5937797655,NLP,machine learning,False,True,NLP
+5937797655,PyTorch,machine learning,False,True,PyTorch
+5937797655,Python,programming,False,True,Python
+5937797655,RAG,generative AI,False,True,RAG
+5937797655,TensorFlow / Keras,machine learning,False,True,TensorFlow
+5937797692,Data pipelines,data engineering,False,True,data pipelines
+5937797692,Power BI,BI & visualisation,False,True,Power BI
+5937797692,SQL,programming,False,True,SQL
+5937797978,Communication,business & ways of working,False,True,communication skills
+5937797978,Data governance,business & ways of working,True,True,Data Governance
+5937797978,Data quality,business & ways of working,False,True,data quality
+5937797978,SQL,programming,False,True,SQL
+5937797978,Stakeholder management,business & ways of working,False,True,stakeholder
+5937798040,Data governance,business & ways of working,False,True,data governance
+5937798040,Data warehousing,data engineering,False,True,data warehousing
+5937798040,ETL / ELT,data engineering,False,True,ETL
+5937798040,Snowflake,databases & warehouses,False,True,Snowflake
+5937798045,Azure,cloud & devops,True,True,Azure
+5937798045,Azure Synapse,databases & warehouses,False,True,Synapse
+5937798045,CI/CD,cloud & devops,False,True,CI/CD
+5937798045,Data modelling,data engineering,False,True,Kimball
+5937798045,Data warehousing,data engineering,False,True,data warehousing
+5937798045,Databricks,data engineering,False,True,Databricks
+5937798045,Master data,business & ways of working,False,True,MDM
+5937798045,Power BI,BI & visualisation,False,True,Power BI
+5937798045,Python,programming,False,True,Python
+5937798045,SQL,programming,False,True,SQL
+5937798045,Scala,programming,False,True,Scala
+5937798045,Spark,data engineering,False,True,PySpark
+5937798154,GCP,cloud & devops,False,True,Google Cloud
+5937798154,LLMs,generative AI,False,True,Large Language Model
+5937798154,Machine learning,machine learning,False,True,machine learning
+5937798154,Prompt engineering,generative AI,False,True,prompt engineering
+5937798154,RAG,generative AI,False,True,Retrieval-Augmented Generation
+5937798346,Azure,cloud & devops,False,True,Azure
+5937798346,Data modelling,data engineering,False,True,data modelling
+5937798346,Databricks,data engineering,False,True,Databricks
+5937798346,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5937798346,Python,programming,False,True,Python
+5937798346,SQL,programming,False,True,SQL
+5937798346,Snowflake,databases & warehouses,False,True,Snowflake
+5937799482,AWS,cloud & devops,False,True,AWS
+5937799482,Azure,cloud & devops,False,True,Azure
+5937799482,Generative AI,generative AI,False,True,Generative AI
+5937799482,LLMs,generative AI,False,True,LLM
+5937799482,MLOps,MLOps,False,True,MLOps
+5937799482,RAG,generative AI,False,True,RAG
+5937799482,Vector databases,generative AI,False,True,vector databases
+5937799731,Azure,cloud & devops,False,True,Azure
+5937799731,CI/CD,cloud & devops,False,True,CI/CD
+5937799731,MLOps,MLOps,False,True,MLOps
+5937799731,Machine learning,machine learning,True,False,Machine Learning
+5937799731,PyTorch,machine learning,False,True,PyTorch
+5937799731,Python,programming,False,True,Python
+5937799731,Recommender systems,machine learning,False,True,recommendation systems
+5937799731,TensorFlow / Keras,machine learning,False,True,TensorFlow
+5937799734,AWS,cloud & devops,False,True,AWS
+5937799734,Airflow,data engineering,False,True,Airflow
+5937799734,Communication,business & ways of working,False,True,communication skills
+5937799734,Data modelling,data engineering,False,True,data modelling
+5937799734,Python,programming,False,True,Python
+5937799734,Snowflake,databases & warehouses,False,True,Snowflake
+5937799734,dbt,data engineering,False,True,dbt
+5937799782,Data visualisation,BI & visualisation,False,True,data visualisation
+5937799782,Data warehousing,data engineering,False,True,data warehousing
+5937799782,Power BI,BI & visualisation,False,True,Power BI
+5937799782,SQL,programming,False,True,SQL
+5937799782,Tableau,BI & visualisation,False,True,Tableau
+5937799787,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5937799787,Power BI,BI & visualisation,False,True,Power BI
+5937799787,Python,programming,False,True,Python
+5937799787,SQL,programming,False,True,SQL
+5937906481,AWS,cloud & devops,False,True,AWS
+5937907048,Deep learning,machine learning,False,True,neural networks
+5937907048,Machine learning,machine learning,True,False,Machine Learning
+5937907052,Data pipelines,data engineering,False,True,data pipelines
+5937979048,Azure,cloud & devops,False,True,Azure
+5937979048,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5937982931,Machine learning,machine learning,False,True,Machine Learning
+5938003236,Data pipelines,data engineering,False,True,data pipelines
+5938003236,Data quality,business & ways of working,False,True,data quality
+5938003236,Data warehousing,data engineering,False,True,data warehouses
+5938003236,ETL / ELT,data engineering,False,True,ETL
+5938003236,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5938003236,SQL,programming,False,True,SQL
+5938003236,SQL Server,databases & warehouses,False,True,SQL Server
+5938012844,SAP,business & ways of working,True,False,SAP
+5938070201,Stakeholder management,business & ways of working,False,True,stakeholder
+5938243691,Azure,cloud & devops,False,True,Azure
+5938243691,Stakeholder management,business & ways of working,False,True,stakeholders
+5938243703,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5938243739,Data pipelines,data engineering,False,True,data pipelines
+5938243739,Data quality,business & ways of working,False,True,data quality
+5938243739,ETL / ELT,data engineering,False,True,ETL
+5938246140,Azure,cloud & devops,False,True,Azure
+5938246140,Power BI,BI & visualisation,False,True,Power BI
+5938287409,AWS,cloud & devops,False,True,AWS
+5938287409,Agile,business & ways of working,False,True,Agile
+5938287409,Data warehousing,data engineering,False,True,data warehouse
+5938287409,ETL / ELT,data engineering,False,True,ETL
+5938288789,Data pipelines,data engineering,False,True,data pipelines
+5938289046,Stakeholder management,business & ways of working,False,True,stakeholders
+5938289053,Stakeholder management,business & ways of working,False,True,stakeholders
+5938290376,Stakeholder management,business & ways of working,False,True,stakeholder
+5938296797,CI/CD,cloud & devops,False,True,CI/CD
+5938296797,ETL / ELT,data engineering,False,True,ETL
+5938296797,Git,cloud & devops,False,True,GitLab
+5938296797,Oracle,databases & warehouses,False,True,Oracle
+5938296797,SQL,programming,False,True,SQL
+5938296808,Dashboards,BI & visualisation,False,True,dashboards
+5938296808,Git,cloud & devops,False,True,Git
+5938296808,MySQL,databases & warehouses,False,True,MySQL
+5938296808,Redshift,databases & warehouses,False,True,Redshift
+5938357799,Stakeholder management,business & ways of working,False,True,stakeholders
+5938357813,Agile,business & ways of working,False,True,agile
+5938357813,Stakeholder management,business & ways of working,False,True,stakeholders
+5938360331,Data pipelines,data engineering,False,True,data pipelines
+5938360331,Data quality,business & ways of working,False,True,data quality
+5938360331,ETL / ELT,data engineering,False,True,ETL
+5938368224,Data pipelines,data engineering,False,True,data pipelines
+5938368795,Dashboards,BI & visualisation,False,True,dashboards
+5938368795,Data quality,business & ways of working,False,True,data quality
+5938368795,Power BI,BI & visualisation,False,True,Power BI
+5938852855,Generative AI,generative AI,True,False,GenAI
+5938852855,Machine learning,machine learning,False,True,machine-learning
+5938852941,Generative AI,generative AI,False,True,generative AI
+5938852941,Machine learning,machine learning,False,True,machine learning
+5938853059,Data pipelines,data engineering,False,True,data pipelines
+5938853059,ETL / ELT,data engineering,False,True,ETL
+5938853059,Power BI,BI & visualisation,False,True,Power BI
+5938853059,Stakeholder management,business & ways of working,False,True,stakeholders
+5938999996,Azure,cloud & devops,False,True,Azure
+5938999996,Databricks,data engineering,False,True,Databricks
+5939018622,SQL,programming,False,True,SQL
+5939029923,APIs,cloud & devops,False,True,APIs
+5939034278,Generative AI,generative AI,False,True,generative AI
+5939035610,Machine learning,machine learning,False,True,machine learning
+5939035626,Generative AI,generative AI,False,True,GenAI
+5939035626,NLP,machine learning,False,True,NLP
+5939039670,LLMs,generative AI,True,False,LLM
+5939039670,Machine learning,machine learning,True,False,Machine Learning
+5939040502,Dashboards,BI & visualisation,False,True,dashboards
+5939040502,Stakeholder management,business & ways of working,False,True,stakeholders
+5939043711,Machine learning,machine learning,True,False,Machine Learning
+5939043842,Machine learning,machine learning,True,False,Machine Learning
+5939044056,Power BI,BI & visualisation,False,True,Power BI
+5939044928,Stakeholder management,business & ways of working,False,True,stakeholders
+5939046442,AI agents,generative AI,False,True,agentic
+5939046442,LLMs,generative AI,False,True,LLMs
+5939057753,AI agents,generative AI,False,True,Agentic
+5939057753,AWS,cloud & devops,False,True,AWS
+5939057753,Generative AI,generative AI,False,True,GenAI
+5939057753,NLP,machine learning,False,True,NLP
+5939057753,RAG,generative AI,False,True,RAG
+5939152760,APIs,cloud & devops,False,True,APIs
+5939152760,Data governance,business & ways of working,False,True,data governance
+5939152760,Data modelling,data engineering,False,True,data modelling
+5939152760,Data quality,business & ways of working,False,True,data quality
+5939152760,ETL / ELT,data engineering,False,True,ETL
+5939152760,Informatica,data engineering,False,True,Informatica
+5939152760,Python,programming,False,True,Python
+5939152760,SQL,programming,False,True,SQL
+5939152851,Data warehousing,data engineering,False,True,data warehousing
+5939152851,ETL / ELT,data engineering,False,True,ETL
+5939152851,Python,programming,False,True,Python
+5939152851,SQL,programming,False,True,SQL
+5939152948,Deep learning,machine learning,False,True,deep learning
+5939152948,GCP,cloud & devops,False,True,GCP
+5939152948,Machine learning,machine learning,True,True,machine learning
+5939152948,XGBoost / LightGBM,machine learning,False,True,XGBoost
+5939154258,Communication,business & ways of working,False,True,communicating
+5939154258,Data governance,business & ways of working,False,True,data governance
+5939154258,Data modelling,data engineering,False,True,data modelling
+5939154258,Data visualisation,BI & visualisation,False,True,visualisation
+5939154258,Data warehousing,data engineering,False,True,data warehousing
+5939154258,ETL / ELT,data engineering,False,True,ETL
+5939154258,Power BI,BI & visualisation,False,True,Power BI
+5939154258,SQL,programming,False,True,SQL
+5939154280,Data pipelines,data engineering,False,True,data pipelines
+5939154280,Python,programming,False,True,Python
+5939154280,SQL,programming,False,True,SQL
+5939154280,Stakeholder management,business & ways of working,False,True,stakeholders
+5939154485,Data lake / lakehouse,data engineering,False,True,Lakehouse
+5939154485,Data modelling,data engineering,False,True,data modelling
+5939154485,Data pipelines,data engineering,False,True,data pipelines
+5939154485,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5939154485,SQL,programming,False,True,SQL
+5939267418,Power BI,BI & visualisation,True,False,Power BI
+5939267418,Stakeholder management,business & ways of working,False,True,stakeholders
+5939306373,Dashboards,BI & visualisation,False,True,dashboards
+5939306373,Power BI,BI & visualisation,False,True,Power BI
+5939306396,Databricks,data engineering,False,True,Databricks
+5939306396,Power BI,BI & visualisation,False,True,Power BI
+5939306396,SQL,programming,False,True,SQL
+5939306422,AI agents,generative AI,False,True,Agentic
+5939306422,AWS,cloud & devops,True,True,AWS
+5939306422,Databricks,data engineering,False,True,Databricks
+5939306442,Data modelling,data engineering,False,True,data modelling
+5939306491,Machine learning,machine learning,True,True,MACHINE LEARNING
+5939306525,Azure,cloud & devops,True,True,Azure
+5939306525,SQL,programming,False,True,SQL
+5939306525,Salesforce,business & ways of working,False,True,Salesforce
+5939306594,Machine learning,machine learning,True,True,MACHINE LEARNING
+5939308628,LLMs,generative AI,False,True,LLM
+5939308630,Azure,cloud & devops,True,True,Azure
+5939308630,SQL,programming,False,True,SQL
+5939308630,Salesforce,business & ways of working,False,True,Salesforce
+5939309509,Dashboards,BI & visualisation,False,True,dashboards
+5939309509,Power BI,BI & visualisation,False,True,Power BI
+5939335323,Dashboards,BI & visualisation,False,True,dashboards
+5939335323,Power BI,BI & visualisation,False,True,Power BI
+5939336193,Data modelling,data engineering,False,True,data modelling
+5939336973,Power BI,BI & visualisation,True,False,Power BI
+5939336973,Stakeholder management,business & ways of working,False,True,stakeholders
+5939403797,Dashboards,BI & visualisation,False,True,dashboards
+5939512533,AI agents,generative AI,False,True,agentic
+5939512533,Communication,business & ways of working,False,True,communicate
+5939512533,Generative AI,generative AI,False,True,generative AI
+5939512533,Machine learning,machine learning,False,True,machine learning
+5939512533,NLP,machine learning,False,True,natural language processing
+5939512533,Statistics,statistics & methods,False,True,statistical
+5939560375,Machine learning,machine learning,False,True,machine learning
+5939560375,Stakeholder management,business & ways of working,False,True,stakeholders
+5939560463,Data pipelines,data engineering,False,True,data pipelines
+5939560463,Stakeholder management,business & ways of working,False,True,stakeholders
+5939560511,AWS,cloud & devops,False,True,AWS
+5939560712,Data pipelines,data engineering,False,True,data pipelines
+5939560727,Data pipelines,data engineering,False,True,data pipelines
+5939560727,Stakeholder management,business & ways of working,False,True,stakeholders
+5939561290,Power BI,BI & visualisation,False,True,Power BI
+5939561290,Snowflake,databases & warehouses,False,True,Snowflake
+5939561291,Data pipelines,data engineering,False,True,data pipelines
+5939561291,Stakeholder management,business & ways of working,False,True,stakeholders
+5939602368,Communication,business & ways of working,False,True,Communicate
+5939602373,Dashboards,BI & visualisation,False,True,Dashboard
+5939602373,Data modelling,data engineering,False,True,Data Modeling
+5939602373,ETL / ELT,data engineering,False,True,ETL
+5939602373,Power BI,BI & visualisation,False,True,Power BI
+5939602373,Python,programming,False,True,Python
+5939602373,SQL,programming,False,True,SQL
+5939602373,Tableau,BI & visualisation,False,True,Tableau
+5939610527,Agile,business & ways of working,False,True,agile
+5939668872,Stakeholder management,business & ways of working,False,True,stakeholders
+5939680894,Power BI,BI & visualisation,False,True,Power BI
+5939680894,Snowflake,databases & warehouses,False,True,Snowflake
+5939688960,Power BI,BI & visualisation,False,True,Power BI
+5939918230,Machine learning,machine learning,False,True,Machine Learning
+5940072508,Machine learning,machine learning,True,False,Machine Learning
+5940179555,SQL,programming,True,False,SQL
+5940179612,Agile,business & ways of working,False,True,agile
+5940191517,AWS,cloud & devops,True,False,AWS
+5940191517,SQL,programming,True,False,SQL
+5940226115,Machine learning,machine learning,True,False,Machine Learning
+5940244016,AI agents,generative AI,False,True,AI agents
+5940244016,Machine learning,machine learning,True,False,Machine Learning
+5940251429,Machine learning,machine learning,False,True,machine learning
+5940254938,Agile,business & ways of working,False,True,agile
+5940254938,Python,programming,True,True,Python
+5940258540,APIs,cloud & devops,False,True,APIs
+5940258540,Microsoft Fabric,databases & warehouses,False,True,Microsoft Fabric
+5940258540,Power BI,BI & visualisation,False,True,Power BI
+5940258540,Python,programming,False,True,Python
+5940258540,SQL,programming,False,True,SQL
+5940258540,Spark,data engineering,False,True,PySpark
+5940266647,Machine learning,machine learning,False,True,machine learning
+5940266647,Statistics,statistics & methods,False,True,statistical
+5940269361,Agile,business & ways of working,False,True,Agile
+5940273279,Data visualisation,BI & visualisation,False,True,data visualisation
+5940273279,R,programming,False,True,R
+5940273279,Tableau,BI & visualisation,False,True,Tableau
+5940277338,Agile,business & ways of working,False,True,agile
+5940374221,Machine learning,machine learning,False,True,machine learning
+5940374221,Python,programming,False,True,Python
+5940374221,SQL,programming,False,True,SQL
+5940374221,Statistics,statistics & methods,False,True,statistical
+5940375592,APIs,cloud & devops,False,True,APIs
+5940375592,Azure,cloud & devops,True,True,Azure
+5940375592,ETL / ELT,data engineering,False,True,ETL
+5940375592,Python,programming,False,True,Python
+5940375592,SQL,programming,False,True,SQL
+5940375592,Salesforce,business & ways of working,False,True,Salesforce
+5940375662,DAX,BI & visualisation,False,True,DAX
+5940375662,Dashboards,BI & visualisation,False,True,dashboards
+5940375662,Power BI,BI & visualisation,False,True,Power BI
+5940375662,SAP,business & ways of working,False,True,SAP
+5940375662,SQL,programming,False,True,SQL
+5940375662,Tableau,BI & visualisation,False,True,Tableau
+5940375669,Agile,business & ways of working,False,True,Agile
+5940375669,BigQuery,databases & warehouses,False,True,BigQuery
+5940375669,Communication,business & ways of working,False,True,communication skills
+5940375669,Data modelling,data engineering,False,True,data modelling
+5940375669,GCP,cloud & devops,False,True,GCP
+5940375669,JIRA,business & ways of working,False,True,JIRA
+5940375669,Python,programming,False,True,Python
+5940375669,SQL,programming,False,True,SQL
+5940375669,Stakeholder management,business & ways of working,False,True,stakeholder
+5940375721,AI agents,generative AI,False,True,agentic
+5940375721,APIs,cloud & devops,False,True,APIs
+5940375721,Computer vision,machine learning,False,True,computer vision
+5940375721,Deep learning,machine learning,False,True,deep learning
+5940375721,Generative AI,generative AI,False,True,generative AI
+5940375721,Hugging Face,generative AI,False,True,Hugging Face
+5940375721,LLMs,generative AI,False,True,LLM
+5940375721,LangChain / LangGraph,generative AI,False,True,LangChain
+5940375721,MLOps,MLOps,False,True,MLOps
+5940375721,Machine learning,machine learning,False,True,machine learning
+5940375721,Model deployment,MLOps,False,True,model deployment
+5940375721,NLP,machine learning,False,True,NLP
+5940375721,OpenAI API,generative AI,False,True,OpenAI
+5940375721,PyTorch,machine learning,False,True,PyTorch
+5940375721,TensorFlow / Keras,machine learning,False,True,TensorFlow
+5940375785,Excel,BI & visualisation,False,True,Microsoft Excel
+5940375785,Power BI,BI & visualisation,False,True,Power BI
+5940375785,SQL,programming,False,True,SQL
+5940375840,Communication,business & ways of working,False,True,communicate
+5940375840,Excel,BI & visualisation,False,True,Microsoft Excel
+5940375840,Power BI,BI & visualisation,False,True,Power BI
+5940375840,SQL,programming,False,True,SQL
+5940483968,Python,programming,True,False,Python
+5940536586,Data modelling,data engineering,False,True,data modelling
+5940536586,Data pipelines,data engineering,False,True,data pipeline
+5940536586,Microsoft Fabric,databases & warehouses,False,True,MS Fabric
+5940536586,Python,programming,True,True,Python
+5940536586,SQL,programming,True,True,SQL
+5940536588,AWS,cloud & devops,True,False,AWS
+5940536588,SQL,programming,False,True,SQL

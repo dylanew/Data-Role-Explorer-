@@ -1,0 +1,89 @@
+skill,category,n_postings,share,share_ai_engineer,share_analytics_engineer,share_bi_analyst,share_data_analyst,share_data_engineer,share_data_scientist,share_machine_learning_engineer,share_other
+Machine learning,machine learning,245,0.1319,0.1471,0.0,0.0,0.0048,0.0239,0.2065,0.3878,0.2313
+SQL,programming,103,0.0555,0.0,0.0,0.0806,0.0694,0.1345,0.0151,0.0,0.0
+Stakeholder management,business & ways of working,92,0.0495,0.0,0.0,0.2097,0.0598,0.0564,0.043,0.0122,0.0373
+Data pipelines,data engineering,85,0.0458,0.0441,0.0,0.0161,0.012,0.1518,0.0065,0.0082,0.0075
+Python,programming,82,0.0442,0.0735,0.0,0.0,0.0191,0.0933,0.028,0.0367,0.0299
+Generative AI,generative AI,66,0.0355,0.1765,0.0,0.0161,0.0024,0.0043,0.0581,0.0327,0.1119
+Azure,cloud & devops,61,0.0328,0.0294,0.0,0.0161,0.0072,0.102,0.0043,0.0041,0.0373
+AI agents,generative AI,55,0.0296,0.1176,0.0,0.0,0.0,0.0108,0.0387,0.0653,0.0597
+Dashboards,BI & visualisation,50,0.0269,0.0,0.0,0.1935,0.055,0.0087,0.0151,0.0,0.0299
+Power BI,BI & visualisation,49,0.0264,0.0,0.0,0.1452,0.0694,0.0152,0.0,0.0,0.0299
+Statistics,statistics & methods,49,0.0264,0.0294,0.0,0.0,0.0167,0.0,0.0796,0.0122,0.0
+AWS,cloud & devops,46,0.0248,0.0735,0.0,0.0,0.0048,0.0542,0.0022,0.0082,0.0821
+Databricks,data engineering,44,0.0237,0.0294,0.0,0.0161,0.0048,0.0803,0.0,0.0041,0.0075
+LLMs,generative AI,44,0.0237,0.1029,0.0,0.0,0.0,0.0022,0.0344,0.0449,0.0672
+ETL / ELT,data engineering,36,0.0194,0.0,0.0,0.0,0.0024,0.0694,0.0043,0.0,0.0075
+Microsoft Fabric,databases & warehouses,32,0.0172,0.0,0.0,0.0161,0.0096,0.0564,0.0022,0.0,0.0
+Data quality,business & ways of working,30,0.0162,0.0,0.0,0.0323,0.0359,0.0239,0.0043,0.0,0.0
+Data modelling,data engineering,28,0.0151,0.0,0.0,0.0161,0.0191,0.039,0.0022,0.0,0.0
+Communication,business & ways of working,25,0.0135,0.0,0.0,0.0484,0.0215,0.0065,0.0108,0.0204,0.0
+Data warehousing,data engineering,25,0.0135,0.0,0.0,0.0484,0.0167,0.0304,0.0,0.0041,0.0
+Agile,business & ways of working,22,0.0118,0.0147,0.0,0.0161,0.0144,0.0174,0.0086,0.0,0.0149
+Snowflake,databases & warehouses,22,0.0118,0.0,0.0,0.0,0.0048,0.0434,0.0,0.0,0.0
+A/B testing,statistics & methods,19,0.0102,0.0147,0.0,0.0,0.0024,0.0,0.028,0.0163,0.0
+APIs,cloud & devops,19,0.0102,0.0441,0.0,0.0,0.0024,0.0217,0.0022,0.0082,0.0149
+Data lake / lakehouse,data engineering,19,0.0102,0.0,0.0,0.0323,0.0,0.0325,0.0043,0.0,0.0
+Data visualisation,BI & visualisation,19,0.0102,0.0,0.0,0.0484,0.0263,0.0,0.0043,0.0082,0.0075
+GCP,cloud & devops,19,0.0102,0.0147,0.0,0.0,0.0,0.0195,0.0043,0.0204,0.0149
+NLP,machine learning,19,0.0102,0.0441,0.0,0.0,0.0,0.0,0.0258,0.0122,0.0075
+Spark,data engineering,16,0.0086,0.0,0.0,0.0,0.0,0.0325,0.0,0.0041,0.0
+RAG,generative AI,15,0.0081,0.0441,0.0,0.0,0.0024,0.0,0.0108,0.0082,0.0299
+Deep learning,machine learning,12,0.0065,0.0,0.0,0.0,0.0,0.0,0.0129,0.0204,0.0075
+Excel,BI & visualisation,12,0.0065,0.0,0.0,0.0,0.0263,0.0,0.0,0.0,0.0075
+Forecasting / time series,machine learning,11,0.0059,0.0,0.0,0.0,0.0096,0.0,0.0129,0.0,0.0075
+MLOps,MLOps,11,0.0059,0.0,0.0,0.0,0.0,0.0,0.0022,0.0367,0.0075
+Salesforce,business & ways of working,10,0.0054,0.0,0.0,0.0,0.0024,0.0065,0.0086,0.0,0.0149
+CI/CD,cloud & devops,9,0.0048,0.0,0.0,0.0,0.0,0.013,0.0,0.0082,0.0075
+Data governance,business & ways of working,9,0.0048,0.0,0.0,0.0,0.0096,0.0108,0.0,0.0,0.0
+SQL Server,databases & warehouses,9,0.0048,0.0,0.0,0.0,0.0024,0.0174,0.0,0.0,0.0
+Tableau,BI & visualisation,9,0.0048,0.0,0.0,0.0,0.0144,0.0022,0.0022,0.0,0.0075
+Azure Synapse,databases & warehouses,8,0.0043,0.0,0.0,0.0,0.0,0.0174,0.0,0.0,0.0
+R,programming,7,0.0038,0.0,0.0,0.0,0.0048,0.0,0.0108,0.0,0.0
+SSIS,data engineering,7,0.0038,0.0,0.0,0.0,0.0024,0.013,0.0,0.0,0.0
+Airflow,data engineering,6,0.0032,0.0,0.0,0.0,0.0,0.013,0.0,0.0,0.0
+Computer vision,machine learning,6,0.0032,0.0147,0.0,0.0,0.0,0.0,0.0065,0.0082,0.0
+LangChain / LangGraph,generative AI,6,0.0032,0.0294,0.0,0.0,0.0,0.0,0.0022,0.0082,0.0075
+OpenAI API,generative AI,6,0.0032,0.0441,0.0,0.0,0.0,0.0,0.0043,0.0,0.0075
+Oracle,databases & warehouses,6,0.0032,0.0,0.0,0.0,0.0,0.0108,0.0,0.0,0.0075
+Prompt engineering,generative AI,6,0.0032,0.0,0.0,0.0,0.0,0.0,0.0022,0.0163,0.0075
+PyTorch,machine learning,6,0.0032,0.0294,0.0,0.0,0.0,0.0,0.0022,0.0122,0.0
+Recommender systems,machine learning,6,0.0032,0.0,0.0,0.0,0.0,0.0,0.0022,0.0204,0.0
+dbt,data engineering,6,0.0032,0.0,0.0,0.0,0.0024,0.0108,0.0,0.0,0.0
+BigQuery,databases & warehouses,5,0.0027,0.0,0.0,0.0,0.0,0.0065,0.0,0.0082,0.0
+Model deployment,MLOps,5,0.0027,0.0147,0.0,0.0,0.0,0.0,0.0022,0.0082,0.0075
+NoSQL,databases & warehouses,5,0.0027,0.0,0.0,0.0,0.0,0.0108,0.0,0.0,0.0
+Azure Data Factory,data engineering,4,0.0022,0.0,0.0,0.0,0.0,0.0087,0.0,0.0,0.0
+Git,cloud & devops,4,0.0022,0.0,0.0,0.0,0.0,0.0087,0.0,0.0,0.0
+Master data,business & ways of working,4,0.0022,0.0,0.0,0.0,0.0048,0.0043,0.0,0.0,0.0
+DAX,BI & visualisation,3,0.0016,0.0,0.0,0.0161,0.0024,0.0,0.0,0.0041,0.0
+Fine-tuning,generative AI,3,0.0016,0.0294,0.0,0.0,0.0,0.0,0.0,0.0041,0.0
+Hadoop,data engineering,3,0.0016,0.0,0.0,0.0,0.0,0.0065,0.0,0.0,0.0
+Hugging Face,generative AI,3,0.0016,0.0147,0.0,0.0,0.0,0.0,0.0043,0.0,0.0
+Kubernetes,cloud & devops,3,0.0016,0.0,0.0,0.0,0.0,0.0043,0.0,0.0,0.0075
+Scala,programming,3,0.0016,0.0,0.0,0.0,0.0,0.0065,0.0,0.0,0.0
+TensorFlow / Keras,machine learning,3,0.0016,0.0147,0.0,0.0,0.0,0.0,0.0022,0.0041,0.0
+Vector databases,generative AI,3,0.0016,0.0,0.0,0.0,0.0,0.0,0.0,0.0082,0.0075
+Vertex AI,MLOps,3,0.0016,0.0,0.0,0.0,0.0,0.0,0.0,0.0122,0.0
+Docker,cloud & devops,2,0.0011,0.0,0.0,0.0,0.0,0.0022,0.0,0.0041,0.0
+Econometrics,statistics & methods,2,0.0011,0.0,0.0,0.0,0.0024,0.0,0.0022,0.0,0.0
+JIRA,business & ways of working,2,0.0011,0.0,0.0,0.0,0.0024,0.0022,0.0,0.0,0.0
+Java,programming,2,0.0011,0.0147,0.0,0.0,0.0,0.0022,0.0,0.0,0.0
+MySQL,databases & warehouses,2,0.0011,0.0,0.0,0.0,0.0024,0.0022,0.0,0.0,0.0
+PostgreSQL,databases & warehouses,2,0.0011,0.0,0.0,0.0,0.0,0.0043,0.0,0.0,0.0
+SAP,business & ways of working,2,0.0011,0.0,0.0,0.0,0.0048,0.0,0.0,0.0,0.0
+Alteryx,BI & visualisation,1,0.0005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0075
+Bayesian methods,statistics & methods,1,0.0005,0.0,0.0,0.0,0.0,0.0,0.0022,0.0,0.0
+C#,programming,1,0.0005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0075
+C++,programming,1,0.0005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0075
+Informatica,data engineering,1,0.0005,0.0,0.0,0.0,0.0,0.0022,0.0,0.0,0.0
+JavaScript / TypeScript,programming,1,0.0005,0.0147,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Kafka,data engineering,1,0.0005,0.0,0.0,0.0,0.0,0.0022,0.0,0.0,0.0
+Linux,cloud & devops,1,0.0005,0.0,0.0,0.0,0.0,0.0022,0.0,0.0,0.0
+MongoDB,databases & warehouses,1,0.0005,0.0,0.0,0.0,0.0,0.0022,0.0,0.0,0.0
+Optimisation,statistics & methods,1,0.0005,0.0,0.0,0.0,0.0,0.0,0.0022,0.0,0.0
+Redshift,databases & warehouses,1,0.0005,0.0,0.0,0.0,0.0,0.0022,0.0,0.0,0.0
+SAS,programming,1,0.0005,0.0,0.0,0.0,0.0024,0.0,0.0,0.0,0.0
+SSRS,BI & visualisation,1,0.0005,0.0,0.0,0.0,0.0,0.0022,0.0,0.0,0.0
+Terraform,cloud & devops,1,0.0005,0.0,0.0,0.0,0.0,0.0022,0.0,0.0,0.0
+XGBoost / LightGBM,machine learning,1,0.0005,0.0,0.0,0.0,0.0,0.0,0.0,0.0041,0.0
