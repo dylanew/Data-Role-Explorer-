@@ -3,4 +3,5 @@
 # as each milestone needs them.
 requests==2.34.2
 python-dotenv==1.2.3
+pandas==3.0.5
 pytest==9.1.1

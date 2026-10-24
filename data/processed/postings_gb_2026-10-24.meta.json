@@ -1,0 +1,40 @@
+{
+  "source_snapshot": "adzuna_gb_2026-10-24.jsonl",
+  "row_counts": {
+    "raw_rows": 2454,
+    "after_merging_same_id": 2262,
+    "after_merging_reposts": 1995
+  },
+  "rows_out": 1995,
+  "rows_in_scope": 1857,
+  "not_data_role": 117,
+  "training_ads": 22,
+  "title_family": {
+    "data scientist": 466,
+    "data engineer": 461,
+    "data analyst": 430,
+    "other": 253,
+    "machine learning engineer": 245,
+    "ai engineer": 74,
+    "bi analyst": 62,
+    "analytics engineer": 4
+  },
+  "seniority": {
+    "unspecified": 1088,
+    "senior": 443,
+    "lead": 146,
+    "manager": 81,
+    "head": 52,
+    "entry": 51,
+    "principal": 50,
+    "staff": 49,
+    "intern": 22,
+    "junior": 13
+  },
+  "salary_source": {
+    "adzuna_estimate": 1238,
+    "advertised": 711,
+    "dropped_rate": 45,
+    "missing": 1
+  }
+}
