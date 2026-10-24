@@ -1,0 +1,39 @@
+{
+  "source": "Adzuna API",
+  "country": "gb",
+  "collected_at": "2026-10-24T14:34:34+00:00",
+  "pages_per_term": 10,
+  "results_per_page": 50,
+  "search_terms": {
+    "data scientist": {
+      "collected": 500,
+      "available": 3955
+    },
+    "data analyst": {
+      "collected": 500,
+      "available": 1002
+    },
+    "data engineer": {
+      "collected": 500,
+      "available": 2723
+    },
+    "machine learning engineer": {
+      "collected": 398,
+      "available": 398
+    },
+    "ml engineer": {
+      "collected": 400,
+      "available": 400
+    },
+    "business intelligence analyst": {
+      "collected": 99,
+      "available": 99
+    },
+    "bi analyst": {
+      "collected": 57,
+      "available": 57
+    }
+  },
+  "total_postings": 2454,
+  "unique_ids": 2262
+}
