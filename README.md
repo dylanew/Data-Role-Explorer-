@@ -45,3 +45,38 @@ Cleaning rules (all defined at the top of `src/clean.py`):
 | `title_family` | First matching rule: analytics engineer, ML engineer, AI engineer, data engineer, data scientist, BI analyst, data analyst, else other | The "official title" the clusters are compared against |
 | Salary | Advertised salaries go in `salary_min/max/mid`; Adzuna's own predictions (about 60%) go in `salary_estimate`; advertised values under £10k (day or hourly rates) are dropped; nothing is imputed | Keep real figures separate from a model's guesses |
 | Flags | `is_data_role` (title names a data role), `is_training_ad` (trainee / placement-programme course ads) | Rows are flagged, not deleted, so later steps choose |
+
+## How to run: skill extraction (milestone 3)
+
+```bash
+python -m src.skills                                          # newest cleaned file
+python -m src.skills data/processed/postings_gb_2026-10-24.csv
+```
+
+This writes three files to `data/processed/`:
+
+- `skills_<country>_<date>.csv`: one row per posting and skill found, with
+  `in_title`, `in_description` and the exact `matched_text`, so every match
+  can be checked by eye.
+- `skill_frequency_<country>_<date>.csv`: one row per skill: how many in-scope
+  postings mention it, the share overall, and the share within each title family.
+- `skills_<country>_<date>.meta.json`: coverage numbers, including how many
+  postings have no skills at all.
+
+How matching works (dictionary and rules at the top of `src/skills.py`):
+
+| Rule | Example | Why |
+|---|---|---|
+| Curated dictionary of 99 skills in 10 categories, each with synonyms | `scikit-learn`: "scikit-learn", "sklearn" | Transparent and easy to change, unlike a learned extractor |
+| Whole words only | "scala" does not match "scalable" | Avoid matches inside other words |
+| Spaces and hyphens are interchangeable | "power bi" matches "Power-BI" and "PowerBI" | Ads write tool names inconsistently |
+| Case ignored, except short words that are also ordinary English | "Excel" but not "excel in this role"; "SAS", "SAP", "Fabric" | Fewer false matches |
+| Special rules for "R" and "RAG" | "Python or R" counts; "R&D", "A&R", "R-2079" do not; "RAG status" (red/amber/green) does not | A single letter needs its own rule |
+| "Go" only as "Golang" | "ready to go live" does not count | "Go" is nearly always the verb |
+| Frequencies count descriptions only | "Machine Learning Engineer" in a title is not the skill "machine learning" | Titles are what clusters get compared with later, so counting them would be circular |
+
+**Sparsity.** Adzuna descriptions are 500-character snippets that often open
+with company boilerplate, so many postings mention no skill. In the UK
+snapshot of 2026-10-24, 1,070 of the 1,857 in-scope postings (58%) have no
+skill in their description (947 if titles are also searched). Postings that
+do mention skills have between 1 and 15.

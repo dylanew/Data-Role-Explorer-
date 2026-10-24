@@ -1,0 +1,24 @@
+{
+  "source_postings": "postings_gb_2026-10-24.csv",
+  "postings_in_scope": 1857,
+  "skills_in_dictionary": 99,
+  "skills_found_at_least_once": 88,
+  "postings_with_zero_skills": 1070,
+  "share_with_zero_skills": 0.576,
+  "postings_with_zero_skills_incl_title": 947,
+  "skills_per_posting": {
+    "mean": 0.91,
+    "median": 0.0,
+    "max": 15
+  },
+  "share_with_zero_skills_by_family": {
+    "ai engineer": 0.559,
+    "analytics engineer": 1.0,
+    "bi analyst": 0.532,
+    "data analyst": 0.706,
+    "data engineer": 0.497,
+    "data scientist": 0.613,
+    "machine learning engineer": 0.473,
+    "other": 0.522
+  }
+}
