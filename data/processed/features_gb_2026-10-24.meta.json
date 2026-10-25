@@ -32,6 +32,66 @@
       "vocabulary_size": 5380,
       "svd_explained_variance": 0.307,
       "created": "2026-10-24"
+    },
+    "features_emb-all-minilm-l6-v2_title-description_gb_2026-10-24.npz": {
+      "method": "embeddings",
+      "model": "all-MiniLM-L6-v2",
+      "text": "title+description",
+      "shape": [
+        1857,
+        384
+      ],
+      "created": "2026-10-25"
+    },
+    "features_emb-all-minilm-l6-v2_description_gb_2026-10-24.npz": {
+      "method": "embeddings",
+      "model": "all-MiniLM-L6-v2",
+      "text": "description",
+      "shape": [
+        1857,
+        384
+      ],
+      "created": "2026-10-25"
+    },
+    "features_emb-all-minilm-l6-v2_masked_gb_2026-10-24.npz": {
+      "method": "embeddings",
+      "model": "all-MiniLM-L6-v2",
+      "text": "masked",
+      "shape": [
+        1857,
+        384
+      ],
+      "created": "2026-10-25"
+    },
+    "features_emb-all-mpnet-base-v2_title-description_gb_2026-10-24.npz": {
+      "method": "embeddings",
+      "model": "all-mpnet-base-v2",
+      "text": "title+description",
+      "shape": [
+        1857,
+        768
+      ],
+      "created": "2026-10-25"
+    },
+    "features_emb-all-mpnet-base-v2_description_gb_2026-10-24.npz": {
+      "method": "embeddings",
+      "model": "all-mpnet-base-v2",
+      "text": "description",
+      "shape": [
+        1857,
+        768
+      ],
+      "created": "2026-10-25"
+    },
+    "features_emb-all-mpnet-base-v2_masked_gb_2026-10-24.npz": {
+      "method": "embeddings",
+      "model": "all-mpnet-base-v2",
+      "text": "masked",
+      "shape": [
+        1857,
+        768
+      ],
+      "created": "2026-10-25"
     }
   },
   "source_postings": "postings_gb_2026-10-24.csv",
