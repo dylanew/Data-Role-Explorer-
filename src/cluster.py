@@ -197,8 +197,23 @@ def draft_name(terms, skills_table):
 
 
 # Final names, written by hand after reading cluster_profiles_*.md. Keys are
-# cluster numbers from the final run. Empty until a run has been chosen.
-CLUSTER_NAMES = {}
+# cluster numbers from the final run: MiniLM embeddings of the masked text,
+# K-means k=8 (chosen 2026-11-03). Rerunning with other settings renumbers the
+# clusters, so these names only apply to that run.
+#
+# Only 3, 5 and 6 are role types: their top skills say what the work is. The
+# others group ads by employer, industry or ad template, because the
+# 500-character snippets say little else.
+CLUSTER_NAMES = {
+    0: "Banking & financial services employers",
+    1: "Generic 'join our team' ads",
+    2: "Consultancy & tech services ads",
+    3: "Machine learning & AI",
+    4: "Company mission & growth text",
+    5: "Data platform & pipelines",
+    6: "Business reporting & analysis",
+    7: "Consumer apps & digital products",
+}
 
 
 def profiles(postings, skills, ids, labels, texts):

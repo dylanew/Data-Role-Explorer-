@@ -1,0 +1,14 @@
+{
+  "source_postings": "postings_gb_2026-10-24.csv",
+  "features": "features_emb-all-minilm-l6-v2_masked_gb_2026-10-24.npz",
+  "setting": "kmeans k=8",
+  "seed": 42,
+  "umap": null,
+  "n_clusters": 8,
+  "silhouette": 0.1361,
+  "noise_share": 0.0,
+  "smallest_cluster": 105,
+  "largest_cluster": 348,
+  "ari_vs_title": 0.0985,
+  "nmi_vs_title": 0.1256
+}
