@@ -26,3 +26,31 @@ def test_score_ignores_noise_points():
     assert result["n_clusters"] == 2
     assert result["noise_share"] == 0.2
     assert result["ari_vs_title"] == 1.0
+
+
+def test_role_from_skills_picks_clear_winner_only():
+    signatures = {3: {"LLMs", "Machine learning"}, 5: {"Databricks", "ETL / ELT"},
+                  6: {"Power BI", "Dashboards"}}
+    assert cluster.role_from_skills({"Databricks", "ETL / ELT", "Power BI"}, signatures) == 5
+    assert cluster.role_from_skills({"Databricks", "Power BI"}, signatures) is None  # tie
+    assert cluster.role_from_skills({"Excel"}, signatures) is None  # no signature skill
+
+
+def test_label_postings_gives_three_labels():
+    import pandas as pd
+
+    names = pd.Series({1: "Consumer apps", 3: "ML & AI", 5: "Pipelines", 6: "Reporting"})
+    ids = np.array(["a", "b", "c"])
+    labels = np.array([5, 1, 1])
+    postings = pd.DataFrame({"id": ["a", "b", "c"],
+                             "title_family": ["data engineer", "data analyst", "data analyst"]})
+    skills = pd.DataFrame({"id": ["a", "b"], "skill": ["Databricks", "Databricks"],
+                           "in_description": [True, True]})
+    result = cluster.label_postings(postings, skills, ids, labels, names).set_index("id")
+    assert result.loc["a", "role_type"] == "Pipelines"
+    assert result.loc["a", "employer_type"] == cluster.NOT_STATED
+    assert result.loc["b", "role_type"] == "Pipelines"  # from its skills
+    assert result.loc["b", "role_type_source"] == "skills"
+    assert result.loc["b", "employer_type"] == "Consumer apps"
+    assert result.loc["c", "role_type"] == cluster.NOT_STATED
+    assert result.loc["c", "title_family"] == "data analyst"
