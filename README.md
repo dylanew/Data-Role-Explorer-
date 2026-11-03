@@ -80,3 +80,18 @@ with company boilerplate, so many postings mention no skill. In the UK
 snapshot of 2026-10-24, 1,070 of the 1,857 in-scope postings (58%) have no
 skill in their description (947 if titles are also searched). Postings that
 do mention skills have between 1 and 15.
+
+## How to run: clustering (milestone 4, in progress)
+
+```bash
+python -m src.embed                 # features for every text version (TF-IDF + sentence embeddings)
+python -m src.cluster compare       # score K-means and HDBSCAN on every feature set
+python -m src.cluster final features_<...>.npz --kmeans 8   # once a setting is chosen
+```
+
+The clusters are built from the description with **role names masked and
+employer boilerplate removed** (`--text masked`), so they come from what the
+ad says about the work rather than from the job title they will be compared
+with. The unmasked versions are kept for comparison. Sentence embeddings need
+the model downloaded from huggingface.co; the chosen model, metric and number
+of clusters are still to be decided.

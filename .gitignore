@@ -9,3 +9,6 @@ __pycache__/
 venv/
 .pytest_cache/
 .ipynb_checkpoints/
+
+# Fitted TF-IDF models (~8 MB each); rebuilt by python -m src.embed
+data/processed/*.joblib
