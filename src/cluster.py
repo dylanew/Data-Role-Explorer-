@@ -43,7 +43,9 @@ The scores, per run:
 
 Outputs, in data/processed/:
     cluster_comparison_<country>_<date>.csv   compare: one row per run
-    clusters_<country>_<date>.csv             final: id, cluster, cluster_name
+    clusters_<country>_<date>.csv             final: id, cluster, cluster_name, and
+                                              three labels per posting: role_type,
+                                              title_family, employer_type
     cluster_profiles_<country>_<date>.csv     final: one row per cluster
     cluster_profiles_<country>_<date>.md      final: the same, readable, with
                                               sample titles for inspection
@@ -201,7 +203,7 @@ def draft_name(terms, skills_table):
 # K-means k=8 (chosen 2026-11-03). Rerunning with other settings renumbers the
 # clusters, so these names only apply to that run.
 #
-# Only 3, 5 and 6 are role types: their top skills say what the work is. The
+# Only 3, 5 and 6 are role types (ROLE_CLUSTERS): their top skills say what the work is. The
 # others group ads by employer, industry or ad template, because the
 # 500-character snippets say little else.
 CLUSTER_NAMES = {
@@ -215,6 +217,86 @@ CLUSTER_NAMES = {
     7: "Consumer apps & digital products",
 }
 
+
+# --- Three labels per posting --------------------------------------------------
+#
+# Only some clusters are about the work; the rest group ads by employer. So
+# instead of one cluster label, each posting gets three that the app can
+# filter on together (for example "data analyst at a consumer app company"):
+#
+#   role_type      what the work is: the name of a ROLE_CLUSTERS cluster.
+#   title_family   what the ad calls the job (from src/clean.py).
+#   employer_type  what kind of employer: the name of any other cluster.
+#
+# A posting in a role cluster has no employer type, and a posting in an
+# employer cluster has no role type from clustering. For the second group we
+# try the skills the ad mentions (role_from_skills). Whatever is still unknown
+# is NOT_STATED: the 500-character snippet simply does not say.
+
+ROLE_CLUSTERS = (3, 5, 6)
+NOT_STATED = "Not stated in the ad"
+
+
+def signature_skills(skills, ids, labels, min_lift=1.5, min_share=0.02):
+    """For each role cluster, the skills that mark it out.
+
+    A skill counts if at least min_share of the cluster's postings mention it
+    and it is at least min_lift times as common there as across all postings.
+    A skill can mark out more than one role ("Stakeholder management" is
+    common in both pipelines and reporting ads).
+    """
+    cluster_of = pd.Series(labels, index=ids, name="cluster")
+    hits = skills[skills["in_description"] & skills["id"].isin(cluster_of.index)]
+    hits = hits.join(cluster_of, on="id")
+    overall = hits.groupby("skill")["id"].nunique() / len(cluster_of)
+    result = {}
+    for cluster in ROLE_CLUSTERS:
+        share = (hits[hits["cluster"] == cluster].groupby("skill")["id"].nunique()
+                 / (cluster_of == cluster).sum())
+        lift = share / overall[share.index]
+        result[cluster] = set(share[(share >= min_share) & (lift >= min_lift)].index)
+    return result
+
+
+def role_from_skills(ad_skills, signatures):
+    """The role cluster whose signature skills the ad mentions most, or None.
+
+    None when the ad mentions none of them, or when two roles tie: a guess
+    between two roles is not worth showing as a label.
+    """
+    counts = {cluster: len(ad_skills & signature) for cluster, signature in signatures.items()}
+    best = max(counts.values())
+    winners = [cluster for cluster, count in counts.items() if count == best]
+    return winners[0] if best > 0 and len(winners) == 1 else None
+
+
+def label_postings(postings, skills, ids, labels, names):
+    """One row per posting: its cluster plus the three labels.
+
+    role_type_source says where the role type came from ("cluster", "skills"
+    or "none"), so the app and README can be honest about how sure it is.
+    """
+    signatures = signature_skills(skills, ids, labels)
+    ad_skills = skills[skills["in_description"]].groupby("id")["skill"].apply(set)
+    rows = []
+    for posting_id, cluster in zip(ids, labels):
+        if cluster in ROLE_CLUSTERS:
+            role, source = cluster, "cluster"
+        else:
+            role = role_from_skills(ad_skills.get(posting_id, set()), signatures)
+            source = "skills" if role is not None else "none"
+        rows.append({
+            "id": posting_id,
+            "cluster": cluster,
+            "cluster_name": names[cluster],
+            "role_type": names[role] if role is not None else NOT_STATED,
+            "role_type_source": source,
+            "employer_type": NOT_STATED if cluster in ROLE_CLUSTERS else names[cluster],
+        })
+    families = postings.set_index("id")["title_family"]
+    frame = pd.DataFrame(rows)
+    frame.insert(5, "title_family", families.loc[frame["id"]].to_numpy())
+    return frame
 
 def profiles(postings, skills, ids, labels, texts):
     """One row per cluster: size, names, terms, skills, title families."""
@@ -313,8 +395,8 @@ def main():
     table = crosstab(postings, ids, labels)
     names = profile.set_index("cluster")["cluster_name"]
 
-    pd.DataFrame({"id": ids, "cluster": labels, "cluster_name": names.loc[labels].to_numpy()}
-                 ).to_csv(out_dir / f"clusters_{suffix}.csv", index=False)
+    labelled = label_postings(postings, skills, ids, labels, names)
+    labelled.to_csv(out_dir / f"clusters_{suffix}.csv", index=False)
     profile.to_csv(out_dir / f"cluster_profiles_{suffix}.csv", index=False)
     write_markdown(out_dir / f"cluster_profiles_{suffix}.md", profile, table,
                    f"{args.features}, {setting}")
