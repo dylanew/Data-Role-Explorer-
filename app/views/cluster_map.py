@@ -12,29 +12,44 @@ quality = data["projection_meta"]
 st.title("Cluster map")
 st.write(
     "Each dot is one job ad. Ads whose text means similar things sit close together. "
-    "Colours are the 8 clusters found by K-means: three are **role types** (what the work "
-    "is), five are **employer or ad groups** (ads that cluster because they share "
-    "company text, not because the job is the same).")
+    "Every ad carries three labels, which you can filter or colour the dots by:")
+st.markdown(
+    "- **Cluster**: which of the 8 K-means groups its text fell in. Three are role types "
+    "(what the work is); five are employer or ad groups (ads that cluster because they "
+    "share company text, not because the job is the same).\n"
+    "- **Role type**: the kind of work. Ads in a role-type cluster take that cluster's "
+    "name; ads in an employer group get one from the skills they name, if they name "
+    "enough; the rest are *Not stated in the ad*.\n"
+    "- **Job title in the ad**: what the employer calls the job, e.g. \"data engineer\".")
 
-# --- Filters, in one row above the chart ---------------------------------------------
-left, right = st.columns(2)
+# --- Controls, in one row above the chart ---------------------------------------------
+left, middle, right = st.columns([2, 2, 1.4])
 families = sorted(table["title_family"].unique())
 roles = sorted(table["role_type"].unique())
-pick_families = left.multiselect("Job title", families, placeholder="All job titles")
-pick_roles = right.multiselect("Role type", roles, placeholder="All role types",
-                               help="Ads in an employer group get a role type from the "
-                                    "skills they name, where they name enough.")
+pick_families = left.multiselect("Job title in the ad", families,
+                                 placeholder="All job titles")
+pick_roles = middle.multiselect("Role type (from cluster or skills)", roles,
+                                placeholder="All role types")
+colour_by = right.radio("Colour dots by", ["Cluster", "Role type"], horizontal=True,
+                        help="Cluster: where the ad's text fell. Role type: the kind of "
+                             "work, from the cluster or from the skills the ad names.")
 shown = table
 if pick_families:
     shown = shown[shown["title_family"].isin(pick_families)]
 if pick_roles:
     shown = shown[shown["role_type"].isin(pick_roles)]
-st.caption(f"Showing {len(shown):,} of {len(table):,} ads. Hover over a dot for the ad; "
-           "click a legend entry to hide a cluster; drag a box or lasso to list ads below.")
+
+# Say where the shown ads' role types came from, so mixed colours make sense.
+source = shown["role_type_source"].value_counts()
+st.caption(
+    f"Showing {len(shown):,} of {len(table):,} ads: {source.get('cluster', 0):,} in a "
+    f"role-type cluster, {source.get('skills', 0):,} in an employer group but given a role "
+    f"type from their skills, {source.get('none', 0):,} with no role type. Hover over a "
+    "dot for the ad; click a legend entry to hide it; drag a box or lasso to list ads below.")
 
 # The full table sets the view, so the map stays put while filters change.
-fig = cluster_map(shown, view_table=table)
-fig.update_layout(title=None, margin=dict(l=10, r=10, t=10, b=40))
+fig = cluster_map(shown, view_table=table, colour_by=colour_by.lower().replace(" ", "_"))
+fig.update_layout(title=None, margin=dict(l=10, r=10, t=40, b=40))  # room for the toolbar
 event = st.plotly_chart(fig, on_select="rerun", selection_mode=("box", "lasso"),
                         key="cluster_map")
 
@@ -48,7 +63,7 @@ if points:
         picked[["title", "company", "title_family", "cluster_name", "role_type",
                 "seniority", "salary_mid"]],
         hide_index=True,
-        column_config={"title_family": "Job title family", "cluster_name": "Cluster",
+        column_config={"title_family": "Job title in the ad", "cluster_name": "Cluster",
                        "role_type": "Role type",
                        "salary_mid": st.column_config.NumberColumn("Salary (mid)",
                                                                    format="£%d")})
