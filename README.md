@@ -23,7 +23,66 @@ work from one employer to the next. So the project asks:
 
 ## Key findings
 
-<!-- FINDINGS: to be written once the highlights are agreed -->
+All numbers are from the UK snapshot of 2026-10-24 (1,857 ads).
+
+### 1. Three role types appear even with every job title blanked out
+
+With role names masked, the ads still separate into three groups defined by
+the work they describe:
+
+| Role type | Ads | What the ads talk about |
+|---|---|---|
+| **ML & AI** | 348 | machine learning, research, models in production |
+| **Data platform & pipelines** | 304 | cloud data platforms, pipelines, scalable systems |
+| **Reporting & analysis** | 306 | business performance, reporting, insights, decision making |
+
+The other five clusters group ads by employer or ad template rather than by
+the work (see [Limitations](#limitations)).
+
+### 2. Job titles only loosely match the work
+
+Agreement between the clusters and the job titles is low (adjusted Rand
+index 0.10, where 0 is no relation and 1 is identical). Titles are not
+meaningless, but one title can cover very different work:
+
+- **"Data engineer" is the most consistent title.** 72% of the platform
+  cluster are data engineer ads, and nearly half of all data engineer ads
+  (47%) land there.
+- **"Data scientist" covers two different jobs.** 24% of data scientist ads
+  land in ML & AI and 17% in reporting & analysis: some data scientists build
+  models, others do analysis that reads like a data analyst's.
+
+![Job title vs role type](docs/title_vs_role_type_gb_2026-10-24.png)
+
+About half of every title's ads land in the employer groups, because their
+500-character snippet is mostly company blurb. Read the first three columns
+as "of the ads that describe the work, where did they go".
+
+### 3. Each role type has its own skill set
+
+Skills named more often in a role type's ads than across all ads (share of
+the cluster's ads, and how many times the overall rate):
+
+| Role type | Defining skills |
+|---|---|
+| **ML & AI** | Machine learning (34%, 2.5x), Generative AI (14%, 3.8x), AI agents (11%, 3.9x), LLMs (7%, 3.1x) |
+| **Data platform & pipelines** | Data pipelines (21%, 4.6x), SQL (15%, 2.8x), Databricks (11%, 4.4x), Azure (10%, 3.0x), ETL / ELT (9%, 4.4x), Microsoft Fabric (6%, 3.6x) |
+| **Reporting & analysis** | Stakeholder management (14%, 2.9x), Dashboards (10%, 3.9x), Statistics (8%, 3.1x), Power BI (8%, 3.0x) |
+
+SQL and Python show up in every type, so they are the shared base rather
+than what sets a role apart. Generative AI skills (GenAI, agents, LLMs) are
+already a defining part of the ML & AI ads.
+
+### Also worth knowing
+
+- **ML engineer and AI engineer read as the same role.** 42% of ML engineer
+  ads and 47% of AI engineer ads land in ML & AI, and almost none anywhere
+  else among the role types. Likewise BI analyst and data analyst both land
+  in reporting & analysis (52% and 34%); there is no separate BI role.
+- **Pay follows the role type.** Median advertised salary is about £90k in
+  ML & AI, £70k in data platform and £52.5k in reporting & analysis. By title:
+  ML engineer £100k, data scientist £74k, data engineer £70k, data analyst
+  £47k. Only 36% of ads give a salary, so treat these as rough.
 
 ## Data
 
@@ -168,5 +227,5 @@ data/processed/    every step's output, named by country and date
 src/               the pipeline: collect, clean, skills, embed, cluster, projection, match
 app/               the Streamlit app (streamlit_app.py, one file per page in views/)
 tests/             pytest tests for each pipeline step
-docs/              METHOD.md (every rule and setting) and the README's charts
+docs/              METHOD.md (every rule and setting), the README's charts and make_readme_charts.py
 ```
