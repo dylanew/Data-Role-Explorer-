@@ -135,3 +135,35 @@ How to read the map:
   384-d), and on average 72% of a posting's 10 map neighbours share its cluster,
   about the same as in 384-d (71%), so the map does not exaggerate how
   separate the clusters are.
+
+## How to run: the app (milestone 6)
+
+```bash
+streamlit run app/streamlit_app.py
+```
+
+The app only reads the precomputed files in `data/processed/` (newest
+snapshot); it never embeds text or runs UMAP, so it starts in seconds and
+needs no ML model. `app/requirements.txt` lists just what it needs.
+
+| Page | What it shows |
+|---|---|
+| Market overview | Headline numbers, most-asked-for skills, ads by title and seniority, advertised salaries by title, regions; filter by job title |
+| Cluster map | The milestone 5 UMAP map, filterable by job title and role type; drag a box or lasso to list the ads |
+| Cluster profiles | One cluster at a time (skills, job titles, salary, the ads themselves), then a heatmap of where each job title's ads ended up |
+| Match me | Paste skills or a CV, get the closest role type and the skills to add |
+
+How "match me" works (`src/match.py`):
+
+1. Skills are found in the pasted text with the same dictionary as the ads (`src/skills.py`).
+2. Each of the three role types gets a skill profile: the share of its ads
+   naming each skill (skills under 2% left out). Only ads in the role's own
+   cluster count; ads labelled with a role from their skills would be circular.
+3. Score = coverage: the profile shares of the skills you have, divided by
+   the profile's total. A skill 20% of ads ask for counts ten times as much as
+   one 2% ask for.
+4. Skills to add: the profile skills you don't have, most asked-for first.
+
+Only the three role types are matched: the other five clusters group ads by
+employer, so matching to them says nothing about your skills. No model is
+loaded, so every score can be checked by hand.

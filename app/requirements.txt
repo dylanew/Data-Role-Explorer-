@@ -1,0 +1,10 @@
+# Only what the deployed app needs. Streamlit Community Cloud reads the
+# requirements file next to the app's entry point first, so the live app does
+# not install sentence-transformers / torch / umap (only used offline in src/).
+# Versions match the root requirements.txt.
+streamlit==1.67.0
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.1
+joblib==1.6.0
+plotly==7.1.0
