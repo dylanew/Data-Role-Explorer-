@@ -1,0 +1,16 @@
+{
+  "source_postings": "postings_gb_2026-10-24.csv",
+  "features": "features_emb-all-minilm-l6-v2_masked_gb_2026-10-24.npz",
+  "clusters": "clusters_gb_2026-10-24.csv",
+  "seed": 42,
+  "umap": {
+    "n_components": 2,
+    "n_neighbors": 30,
+    "min_dist": 0.1,
+    "metric": "cosine",
+    "init": "pca"
+  },
+  "trustworthiness": 0.8682,
+  "neighbour_cluster_agreement_2d": 0.7184,
+  "neighbour_cluster_agreement_full": 0.7062
+}
