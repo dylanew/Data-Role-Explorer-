@@ -145,27 +145,33 @@ CLUSTER_COLOURS = {
 }
 
 
-def cluster_map(table):
-    """Plotly scatter of the map, one trace per cluster. Used by the app too."""
+def cluster_map(table, view_table=None):
+    """Plotly scatter of the map, one trace per cluster. Used by the app too.
+
+    view_table sets the opening view. The app passes the full table while
+    drawing a filtered one, so the map does not jump around as filters change.
+    """
     import plotly.graph_objects as go
 
     fig = go.Figure()
     order = list(ROLE_CLUSTERS) + [c for c in sorted(CLUSTER_COLOURS) if c not in ROLE_CLUSTERS]
     for cluster in order:
         group = table[table["cluster"] == cluster]
+        if group.empty:
+            continue
         is_role = cluster in ROLE_CLUSTERS
         salary = group["salary_mid"].map(lambda s: f"£{s:,.0f}" if pd.notna(s) else "not given")
         fig.add_trace(go.Scattergl(
             x=group["x"], y=group["y"], mode="markers",
             name=f"{CLUSTER_NAMES[cluster]} ({len(group)})",
             legendgroup="role" if is_role else "employer",
-            legendgrouptitle_text="Role types" if is_role and cluster == ROLE_CLUSTERS[0]
-            else ("Employer / ad groups" if cluster == order[len(ROLE_CLUSTERS)] else None),
+            legendgrouptitle_text="Role types" if is_role else "Employer / ad groups",
             marker=dict(size=7 if is_role else 6, color=CLUSTER_COLOURS[cluster],
                         opacity=0.85 if is_role else 0.45,
                         line=dict(width=0.5, color="white")),
             customdata=np.column_stack([group["title"], group["company"].fillna(""),
-                                        group["title_family"], group["role_type"], salary]),
+                                        group["title_family"], group["role_type"], salary,
+                                        group["id"]]),
             hovertemplate=("<b>%{customdata[0]}</b><br>%{customdata[1]}<br>"
                            "Title family: %{customdata[2]}<br>"
                            "Role type: %{customdata[3]}<br>"
@@ -174,7 +180,8 @@ def cluster_map(table):
         ))
     # The axes have no units (UMAP coordinates mean nothing on their own), so
     # they are hidden. The view opens on the main body; see MAIN_VIEW_FACTOR.
-    inside = table[table["in_main_view"]]
+    view_table = table if view_table is None else view_table
+    inside = view_table[view_table["in_main_view"]]
     pad_x = 0.05 * (inside["x"].max() - inside["x"].min())
     pad_y = 0.05 * (inside["y"].max() - inside["y"].min())
     fig.update_layout(
