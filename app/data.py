@@ -14,8 +14,8 @@ import pandas as pd
 import streamlit as st
 
 from src.cluster import CLUSTER_NAMES, ROLE_CLUSTERS
-from src.embed import PROCESSED_DIR, in_scope
-from src.match import role_profiles
+from src.embed import PROCESSED_DIR, in_scope, load_features
+from src.match import load_model, role_centres, role_profiles
 
 # Colour used for single-series charts (one bar colour, nothing to tell apart).
 # Kept apart from the cluster colours so no chart seems to be about a cluster.
@@ -60,3 +60,23 @@ def snapshot_label(suffix):
 def cluster_order():
     """Role types first, then the employer / ad groups, as on the map."""
     return list(ROLE_CLUSTERS) + [c for c in sorted(CLUSTER_NAMES) if c not in ROLE_CLUSTERS]
+
+
+@st.cache_data
+def load_centres(suffix):
+    """{cluster: centre} for the role types, from the precomputed ad embeddings.
+
+    Reads the same embeddings file the clusters were built from (named in the
+    clusters meta file), so the centres always match the clusters.
+    """
+    meta = json.loads((PROCESSED_DIR / f"clusters_{suffix}.meta.json").read_text())
+    ids, features = load_features(PROCESSED_DIR / meta["features"])
+    clusters = pd.read_csv(PROCESSED_DIR / f"clusters_{suffix}.csv", dtype={"id": str})
+    labels = clusters.set_index("id").loc[ids, "cluster"].to_numpy()
+    return role_centres(features, labels, ROLE_CLUSTERS)
+
+
+@st.cache_resource(show_spinner="Loading the language model (first visit only)...")
+def model():
+    """The sentence model, loaded once and shared by every visitor."""
+    return load_model()
