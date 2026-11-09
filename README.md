@@ -95,3 +95,43 @@ ad says about the work rather than from the job title they will be compared
 with. The unmasked versions are kept for comparison. Sentence embeddings need
 the model downloaded from huggingface.co; the chosen model, metric and number
 of clusters are still to be decided.
+
+## How to run: cluster map (milestone 5)
+
+```bash
+python -m src.projection             # writes data/processed/projection_<country>_<date>.csv
+python -m src.projection --preview   # also writes an interactive HTML map to open in a browser
+```
+
+![Cluster map](docs/cluster_map_gb_2026-10-24.png)
+
+The clusters are found in the full 384-dimensional embedding space; this step
+only squeezes the same embeddings into 2D with UMAP so they can be drawn, and
+never changes a label. It runs offline so the app only has to read a small CSV.
+
+Settings and why:
+
+| Setting | Value | Why |
+|---|---|---|
+| `n_neighbors` | 30 | Compared 15, 30 and 50. 30 keeps clusters a little cleaner on the map (neighbour cluster agreement 0.72 vs 0.69 at 15) for a small loss of trustworthiness (0.87 vs 0.88). |
+| `min_dist` | 0.1 | 0.3 spread points out but lowered trustworthiness at every `n_neighbors` (0.84 to 0.85). 0 is for clustering, not drawing: points pile on top of each other. |
+| `metric` | cosine | Same distance as everywhere else for embeddings. |
+| `init` | pca | UMAP's default start ("spectral") gave a different map on every run even with a fixed seed (umap-learn 0.5.12, SciPy 1.18). PCA start is reproducible. |
+| `random_state` | 42 | Same seed as the rest of the project. |
+
+How to read the map:
+
+- The three role types sit apart: ML & AI at the top, data platform & pipelines
+  bottom left, reporting & analysis bottom middle. The employer / ad-template
+  groups spread across the right half, between and around them.
+- Distances between far-apart groups mean little; UMAP keeps who sits next to
+  whom, not global distances.
+- A few employers post near-identical ads (one recruiter's template, the same
+  company blurb on every job). Each forms a tight island away from the rest.
+  The map opens zoomed on the main body and says how many postings are outside;
+  double-click to zoom out.
+- Quality (in `projection_<country>_<date>.meta.json`): trustworthiness 0.87
+  (of each posting's 10 nearest map neighbours, how many were also near it in
+  384-d), and on average 72% of a posting's 10 map neighbours share its cluster,
+  about the same as in 384-d (71%), so the map does not exaggerate how
+  separate the clusters are.
