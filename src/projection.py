@@ -65,7 +65,7 @@ import pandas as pd
 from sklearn.manifold import trustworthiness
 from sklearn.neighbors import NearestNeighbors
 
-from src.cluster import CLUSTER_NAMES, ROLE_CLUSTERS
+from src.cluster import CLUSTER_NAMES, NOT_STATED, ROLE_CLUSTERS
 from src.embed import PROCESSED_DIR, SEED, latest_postings, load_features
 
 UMAP_2D_SETTINGS = dict(n_components=2, n_neighbors=30, min_dist=0.1, metric="cosine",
@@ -145,38 +145,72 @@ CLUSTER_COLOURS = {
 }
 
 
-def cluster_map(table, view_table=None):
-    """Plotly scatter of the map, one trace per cluster. Used by the app too.
+# Grey for ads whose snippet does not say what the work is (role-type colouring).
+NOT_STATED_COLOUR = "#b4b2a9"
+
+# How role_type_source reads in the hover box.
+SOURCE_LABELS = {"cluster": "its cluster", "skills": "the skills it names",
+                 "none": "no cluster or skill match"}
+
+
+def map_groups(table, colour_by):
+    """(name, rows, colour, is_strong, legend title) for each trace of the map.
+
+    colour_by "cluster": one colour per cluster; the three role-type clusters
+    are drawn strong, the five employer / ad groups faint.
+    colour_by "role_type": one colour per role type, whether the ad got it from
+    its cluster or from the skills it names; ads with no role type are grey.
+    The three role types keep their cluster colours, so blue means ML & AI work
+    in both views.
+    """
+    if colour_by == "cluster":
+        order = list(ROLE_CLUSTERS) + [c for c in sorted(CLUSTER_COLOURS)
+                                       if c not in ROLE_CLUSTERS]
+        for cluster in order:
+            is_role = cluster in ROLE_CLUSTERS
+            yield (CLUSTER_NAMES[cluster], table["cluster"] == cluster, CLUSTER_COLOURS[cluster],
+                   is_role, "Role-type clusters" if is_role else "Employer / ad groups")
+    elif colour_by == "role_type":
+        for cluster in ROLE_CLUSTERS:
+            yield (CLUSTER_NAMES[cluster], table["role_type"] == CLUSTER_NAMES[cluster],
+                   CLUSTER_COLOURS[cluster], True, "Role type")
+        yield (NOT_STATED, table["role_type"] == NOT_STATED, NOT_STATED_COLOUR, False,
+               "Role type")
+    else:
+        raise ValueError(f"colour_by must be 'cluster' or 'role_type', not {colour_by!r}")
+
+
+def cluster_map(table, view_table=None, colour_by="cluster"):
+    """Plotly scatter of the map, one trace per colour group. Used by the app too.
 
     view_table sets the opening view. The app passes the full table while
     drawing a filtered one, so the map does not jump around as filters change.
+    colour_by: "cluster" or "role_type" (see map_groups).
     """
     import plotly.graph_objects as go
 
     fig = go.Figure()
-    order = list(ROLE_CLUSTERS) + [c for c in sorted(CLUSTER_COLOURS) if c not in ROLE_CLUSTERS]
-    for cluster in order:
-        group = table[table["cluster"] == cluster]
+    for name, rows, colour, strong, legend_title in map_groups(table, colour_by):
+        group = table[rows]
         if group.empty:
             continue
-        is_role = cluster in ROLE_CLUSTERS
         salary = group["salary_mid"].map(lambda s: f"£{s:,.0f}" if pd.notna(s) else "not given")
+        source = group["role_type_source"].map(SOURCE_LABELS)
         fig.add_trace(go.Scattergl(
             x=group["x"], y=group["y"], mode="markers",
-            name=f"{CLUSTER_NAMES[cluster]} ({len(group)})",
-            legendgroup="role" if is_role else "employer",
-            legendgrouptitle_text="Role types" if is_role else "Employer / ad groups",
-            marker=dict(size=7 if is_role else 6, color=CLUSTER_COLOURS[cluster],
-                        opacity=0.85 if is_role else 0.45,
+            name=f"{name} ({len(group)})",
+            legendgroup=legend_title, legendgrouptitle_text=legend_title,
+            marker=dict(size=7 if strong else 6, color=colour,
+                        opacity=0.85 if strong else 0.45,
                         line=dict(width=0.5, color="white")),
             customdata=np.column_stack([group["title"], group["company"].fillna(""),
                                         group["title_family"], group["role_type"], salary,
-                                        group["id"]]),
+                                        group["id"], group["cluster_name"], source]),
             hovertemplate=("<b>%{customdata[0]}</b><br>%{customdata[1]}<br>"
-                           "Title family: %{customdata[2]}<br>"
-                           "Role type: %{customdata[3]}<br>"
-                           "Salary (mid): %{customdata[4]}"
-                           f"<extra>{CLUSTER_NAMES[cluster]}</extra>"),
+                           "Job title family: %{customdata[2]}<br>"
+                           "Cluster: %{customdata[6]}<br>"
+                           "Role type: %{customdata[3]} (from %{customdata[7]})<br>"
+                           "Salary (mid): %{customdata[4]}<extra></extra>"),
         ))
     # The axes have no units (UMAP coordinates mean nothing on their own), so
     # they are hidden. The view opens on the main body; see MAIN_VIEW_FACTOR.
@@ -189,7 +223,9 @@ def cluster_map(table, view_table=None):
         template="plotly_white", height=650,
         xaxis=dict(visible=False, range=[inside["x"].min() - pad_x, inside["x"].max() + pad_x]),
         yaxis=dict(visible=False, range=[inside["y"].min() - pad_y, inside["y"].max() + pad_y]),
-        legend=dict(itemsizing="constant"), margin=dict(l=10, r=10, t=60, b=40),
+        # showlegend: plotly hides a one-trace legend, which would widen the plot
+        # and stretch the map whenever a filter leaves a single colour.
+        showlegend=True, legend=dict(itemsizing="constant"), margin=dict(l=10, r=10, t=60, b=40),
     )
     outside = table[~table["in_main_view"]]
     if len(outside):

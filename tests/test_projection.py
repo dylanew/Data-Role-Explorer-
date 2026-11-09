@@ -33,3 +33,21 @@ def test_build_table_keeps_feature_order_and_adds_details():
     assert list(table["cluster"]) == [5, 3]
     assert list(table["title"]) == ["B", "A"]
     assert table["in_main_view"].all()
+
+
+def test_map_groups_role_type_keeps_role_colours_and_greys_out_the_rest():
+    from src.cluster import CLUSTER_NAMES, NOT_STATED, ROLE_CLUSTERS
+
+    role = CLUSTER_NAMES[ROLE_CLUSTERS[0]]
+    table = pd.DataFrame({"cluster": [ROLE_CLUSTERS[0], 0, 0],
+                          "role_type": [role, role, NOT_STATED]})
+    groups = {name: (rows.sum(), colour)
+              for name, rows, colour, _, _ in projection.map_groups(table, "role_type")}
+    # The employer-group ad with a role from its skills is counted under that role.
+    assert groups[role] == (2, projection.CLUSTER_COLOURS[ROLE_CLUSTERS[0]])
+    assert groups[NOT_STATED] == (1, projection.NOT_STATED_COLOUR)
+
+
+def test_map_groups_cluster_has_one_group_per_cluster():
+    table = pd.DataFrame({"cluster": [0, 3], "role_type": ["a", "b"]})
+    assert len(list(projection.map_groups(table, "cluster"))) == len(projection.CLUSTER_COLOURS)
